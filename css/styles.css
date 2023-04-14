@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+/* HEADER INICIO */
+
+.mariposa{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+header {
+    display: inline-flex;
+    position: fixed;
+    background-color: rgb(185, 185, 185, 80);
+    /* No se como hacer que mi header NO tape parte de mi background image,
+    no funciona el margin top porque mueve incluso al header siendo que en el html
+    estan seaparados y no tienen nada que ver uno con otro */   
+    width: 100%;
+    height: 80px;
+}
+
+header h1 {
+    padding: 28px 20px;
+}
+
+header .links{
+    display: inline-flex;
+    margin-left: 700px;
+    text-decoration: none;
+}
+
+header .links li {
+    list-style: none;
+    padding-top: 30px;
+}
+
+header ul.links li a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+header ul.links li a:hover {
+    transition: 0.5s;
+    color: rgb(228, 74, 8);
+}
+
+/* HEADER FINAL */
+
+/* BANNER INICIO */
+
+.banner-home {
+    width: 100%;
+    height: 850px;
+    padding-top: 100px;
+    margin: 0px auto;
+    background-color: aqua;
+    background-image: url(../img/overlaySentidoDeVida.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner-home h2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke: 3px black;
+}
+
+#title {
+    font-size: 140px;
+    padding-top: 50px;
+    -webkit-text-stroke: 5px black;
+}
+
+.banner-home a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-sesion{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-left: 630px;
+    margin-top: 100px;
+    width: 240px;
+}
+
+.btn-sesion:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* BANNER FINAL */
+
+/* CONTENIDO CON POSTS INICIO */
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 800px;
+}
+
+.content__titulo{
+    grid-area: 1 / 1 / 2 / 4;
+    font-size: 50px;
+    padding: 60px 20px 0px 20px;
+}
+
+.post img {
+    width: 90%;
+    height: auto;
+    margin: 0px 20px 20px 20px;
+    border: 3px solid black;
+}
+
+.post{
+    padding: 0px 5px 5px 5px;
+}
+
+.post1{
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.post2{
+    grid-area: 2 / 2 / 4 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.instagram{
+    grid-area: 3 / 1 / 4 / 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+}
+.instagram a{
+    text-decoration: none;
+    color: #244970;
+    font-size: 100px;
+}
+
+.coachpubli{
+    grid-area: 1 / 3 / 4 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.coachpubli h2{
+    font-size: 40px;
+}
+
+.coachpubli p{
+    padding-top: 50px;
+}
+
+.coachpubli a{
+    text-decoration: none;
+}
+
+#btn-publis{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 70px;
+    font-size: 20px;
+    padding: 20px;
+    width: 240px;
+    cursor: pointer;
+}
+
+#btn-publis:hover{
+    transition: 0.5s;
+    background-color: rgb(255, 226, 79);
+    color: black;
+    transform: scale(1.1);
+}
+
+/* CONTENIDO CON POST FINAL */
+
+/* FOOTER INCIO */
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(72, 72, 72);
+    display: inline-flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+footer .logo {
+    padding-left: 50px;
+    color: white;
+}
+
+footer img{
+    width: 100px;
+    height: auto;
+    margin-left: 30px;
+}
+
+footer .secciones {
+    text-align: center;
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+footer .secciones li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .secciones li a:hover{
+    color: rgb(33, 233, 251);
+    transition: 0.3s;
+}
+
+footer .redes{
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 40px;
+    color: white;
+}
+
+footer .redes i{
+    font-size: 50px;
+    color: white;
+}
+
+footer .redes i:hover{
+    color: rgb(33, 233, 251);
+    transition: 0.3s;
+}
+
+/* FOOTER FINAL */
+
+/* PAG - CLASE GENERAL (usan varios html) INICIO */
+
+.pag{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+}
+
+.pag img{
+    width: 90px;
+}
+
+.pag h2{
+    padding-top: 130px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.pag .btn {
+    color: black;
+    background-color: white;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 650px;
+    cursor: pointer;
+}
+
+.pag .btn:hover{
+    color: white;
+    background-color: rgb(98, 98, 98);
+    transition: 0.3s;
+}
+
+.pag a{
+    text-decoration: none;
+}
+
+/* PAG - CLASE GENERAL FINAL */
+
+/* DISCIPLINAS INICIO */
+
+.coach {
+    display: inline-block;
+    width: 300px;
+    margin: 100px;
+}
+
+/* DISCIPLINAS FINAL */
+
+/* CONTACTO INICIO */
+
+.casilla{
+    font-size: 20px;
+}
+
+.contacto {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+.contacto .right .titulo {
+    color: black;
+    width: 100vh;
+    height: auto;
+    margin-top: 120px;
+    padding: 0;
+    padding-right: 120px;
+}
+
+.left img{
+    width: 95%;
+    height: auto;
+    margin-top: 85px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.datos{
+    display: flex;
+    flex-direction: row;
+}
+
+.misDatos{
+    padding-right: 100px;
+}
+
+.misDatos p{
+    padding-top: 15px;
+}
+
+.misDatos h3{
+    padding-top: 50px;
+}
+
+.tusDatos {
+    padding-top: 50px;
+    width: 350px;
+}
+
+.tusDatos form{
+    background-color: rgb(132, 132, 132);
+    padding: 15px;
+}
+
+.tusDatos h2{
+    padding: 5px;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.tusDatos h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tusDatos label{
+    font-size: 25px;
+}
+
+.tusDatos input{
+    margin: 10px 0px;
+    padding: 5px 30px;
+}
+
+#boton{
+    background-color: #00367D;
+    color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+#boton:hover{
+    background-color: #244970;
+    transform: scale(1.03);    transition: 0.5s;
+}
+
+/* CONTACTO FINAL */
+
+/* PLANES INICIO */
+
+.planes{
+    background-image: url(../img/fondoMetamorfosis.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 80px;
+    font-family: 'Hammersmith One', sans-serif;
+    -webkit-text-stroke: 1px black;
+}
+
+.contenedor__planes{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nombre-plan{
+    background-color: #00367D;
+    border-radius: 30px;
+    border: 4px solid black;
+}
+
+.desc-plan{
+    padding-top: 20px;
+    padding: 10px;
+    font-size: 28px;
+}
+
+.plan1 .a-tan-solo{
+    text-align: center;
+    margin-top: 20px;  
+}
+
+.plan1 .precio{
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.plan {
+    background-color: #244970;
+    width: 300px;
+    height: 500px;
+    border-radius: 35px;
+    border: 4px solid black;
+}
+
+.plan h2{
+    padding: 25px;
+    font-size: 32px;
+}
+
+.precio{
+    display: inline-flex;
+}
+
+.planes p{
+    padding-top: 50px;
+    text-align: center;
+    -webkit-text-stroke: 0px black;
+}
+
+/* PLANES FINAL */
+
+/* SOBRE MI INICIO */
+
+.sobreMi{
+    width: 100%;
+    height: 100vh;
+    background-color: #545454;
+    color: black;
+    padding-top: 80px;
+    display: inline-flex;
+}
+
+.sec{
+    width: 35%;
+    text-align: center;
+}
+
+.sec1 img {
+    width: 250px;
+    margin-top: 100px;
+}
+
+.sec1 h2{
+    padding: 0;
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+.sec1 h3{
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.sec2{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+.sec2 h2{
+    padding: 9  0px 0px;
+    margin: 0px 50px;
+    text-align: left;
+}
+
+.sec2 p{
+    margin: 50px 90px 0px 50px;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.contactame p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.btn-sobreMi{
+    width: 200px;
+    padding: 15px;
+    margin: 30px auto;
+    background-color: white;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-sobreMi:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: gray;
+}
+
+.metanoia-cont{
+    background-color: black;
+    border-radius: 35px;
+    color: white;
+    margin: 40px auto;
+    padding: 0px 30px 10px 30px;
+    width: 300px;
+    text-align: center;
+    /* No se como posicionar la imagen en el borde del rectangulo negro
+    ni poner el h2 por encima de la mariposa desenfocada */
+}
+
+.metanoia-cont img{
+    filter: blur(2px);
+}
+
+.metanoia-cont h2{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.metanoia-cont p{
+    font-size: 30px;
+}
+
+.metanoia-cont span{
+    color: #46A1CC;
+}
+
+/* SOBRE MI FINAL */
