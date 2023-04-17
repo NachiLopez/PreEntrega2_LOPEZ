@@ -7,24 +7,46 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
       </style>
-    <link rel="stylesheet" href="../css/styles.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="shortcut icon" href="../img/mariposa.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Planes</title>
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script>
     <header>
-        <a href="../index.html"><img src="../img/mariposaSentidoDeVida.png" alt="mariposa" class="mariposa"></a>
-        <h1>Sentido de vida</h1>
-        <nav>
-            <ul class="links">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./disciplinas.html">Disciplinas</a></li>
-                <li><a href="./planes.html">Planes</a></li>
-                <li><a href="./sobremi.html">Sobre mi</a></li>
-                <li><a href="./contactame.html">Contactame</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="./index.html"><img src="../img/mariposaSentidoDeVida.png" alt="mariposa" class="mariposa" /></a>
+            <a class="navbar-brand" href="../index.html">Sentido de vida</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav links">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./disciplinas.html">Disciplinas</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="./planes.html">Planes<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./sobreMi.html">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contactame.html">Contactame</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
     </header>
     <main>
         <section class="pag planes">
