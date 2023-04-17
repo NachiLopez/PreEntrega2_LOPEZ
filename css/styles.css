@@ -19,7 +19,7 @@ header .links {
     flex-direction: row;
     align-items: end;
     text-decoration: none;
-    margin-left: 350px;
+    margin-left: 300px;
 }
 
 header .links li {
@@ -40,7 +40,7 @@ header ul.links li a:hover {
     color: rgb(228, 74, 8);
 }
 
-header i{
+header i {
     font-size: 20px;
     visibility: hidden;
 }
@@ -259,7 +259,7 @@ footer .redes {
     color: white;
 }
 
-footer .redes p{
+footer .redes p {
     width: 230px;
 }
 
@@ -282,12 +282,8 @@ footer .redes i:hover {
     background-color: black;
     color: white;
     width: 100%;
-    height: 100vh;
+    height: 750px;
     font-size: 20px;
-}
-
-.pag img {
-    width: 90px;
 }
 
 .pag h2 {
@@ -295,22 +291,6 @@ footer .redes i:hover {
     font-size: 60px;
     color: white;
     text-align: center;
-}
-
-.btn-disc {
-    color: black;
-    background-color: white;
-    width: 180px;
-    text-align: center;
-    padding: 15px;
-    margin: 700px;
-    cursor: pointer;
-}
-
-.btn-disc:hover {
-    color: white;
-    background-color: rgb(98, 98, 98);
-    transition: 0.3s;
 }
 
 .pag a {
@@ -321,11 +301,37 @@ footer .redes i:hover {
 
 /* DISCIPLINAS INICIO */
 
-.coach {
+.coachings img {
+    width: 90px;
+}
+
+.coachings {
     display: inline-flex;
-    flex-direction: column;
-    width: 300px;
-    margin: 90px;
+}
+
+.coach {
+    width: fit-content;
+    justify-content: space-evenly;
+    padding: 0 50px;
+    margin: 70px 0;
+}
+
+.btn-disc {
+    color: black;
+    background-color: white;
+    width: 240px;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+.btn-disc:hover {
+    transition: 0.5s;
+    background-color: rgb(255, 226, 79);
+    color: black;
+    transform: scale(1.09);
 }
 
 /* DISCIPLINAS FINAL */
@@ -550,7 +556,7 @@ footer .redes i:hover {
     font-size: 24px;
 }
 
-.sec3{
+.sec3 {
     margin-top: 60px;
 }
 
@@ -592,6 +598,7 @@ footer .redes i:hover {
 
 .metanoia-cont img {
     filter: blur(2px);
+    width: 80px;
 }
 
 .metanoia-cont h2 {
@@ -612,71 +619,140 @@ footer .redes i:hover {
 
 /* ADAPTACION A LAPTOP */
 
-@media (max-width: 1024px){
-    header .links{
+@media (max-width: 1024px) {
+    header .links {
         margin: 0 130px;
     }
-}
-/* ADAPTACION A TABLET */
 
-@media (max-width: 768px){
-    .nav-item{
-        margin: 0 5px;
+    /* PAG - CLASE GENERAL (usan varios html) INICIO */
+
+    .pag {
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 850px;
+        font-size: 20px;
     }
-    .banner-home{
-        height: 500px;
+
+    .pag h2 {
+        padding-top: 030px;
+        font-size: 60px;
+        color: white;
+        text-align: center;
     }
-    #title{
-        content-visibility: hidden;
+
+    .pag a {
+        text-decoration: none;
     }
-    .btn-sesion{
-        font-size: 15px;
+
+    /* PAG - CLASE GENERAL FINAL */
+
+    /* DISCIPLINAS INICIO */
+
+    .coachings img {
+        width: 90px;
+    }
+
+    .coachings {
+        display: inline-flex;
+    }
+
+    .coach {
+        width: fit-content;
+        justify-content: space-evenly;
+        padding: 0 50px;
+        margin: 20px 0px 70px 0;
+    }
+
+    .btn-disc {
+        color: black;
+        background-color: white;
+        width: 240px;
+        font-size: 35px;
+        text-align: center;
         padding: 10px;
-        width: 200px;
-        margin: 0 auto;
+        margin: 0px auto;
+        cursor: pointer;
     }
 
-    /* CONTENIDO CON POST INICIO */
+    .btn-disc:hover {
+        transition: 0.5s;
+        background-color: rgb(255, 226, 79);
+        color: black;
+        transform: scale(1.09);
+    }
+
+    footer {
+        height: 140px;
+        align-items: end;
+    }
+
+    footer img {
+        width: 80px;
+        margin-left: 40px;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+
+    footer .secciones {
+        line-height: 25px;
+    }
+
+    footer .redes {
+        font-size: 13px;
+    }
+
+    footer .redes i {
+        font-size: 35px;
+    }
+
+    /* DISCIPLINAS FINAL */
+
+    /* CONTENIDO CON POSTS INICIO */
+
     .content {
         display: inline-flex;
         flex-direction: column;
         height: auto;
     }
-    
+
     .content__titulo {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 36px;
+        font-size: 26px;
         text-align: center;
         padding: 0;
         order: 1;
+        /* padding: 60px 20px 0px 20px; */
     }
-    
-    .post{
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
+
+    .post {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .post img {
         border: 2px solid black;
         width: 70%;
     }
-    
+
     .post1 {
         order: 1;
     }
-    
+
     .post2 {
         order: 1;
     }
-    
+
     .instagram {
         display: inline-flex;
         flex-direction: column-reverse;
         font-size: 36px;
         content-visibility: hidden;
     }
-    
+
     .coachpubli {
         display: flex;
         flex-direction: column;
@@ -684,13 +760,223 @@ footer .redes i:hover {
         margin-right: 5px;
         font-size: 30px;
     }
-    
+
+    .coachpubli h2 {
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .coachpubli p {
+        padding: 0;
+        margin: 0 50px;
+        text-align: center;
+        font-size: 30px
+    }
+
+    .coachpubli a {
+        text-decoration: none;
+    }
+
+    #btn-publis {
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 20px auto 10px auto;
+        font-size: 18px;
+        width: 240px;
+        cursor: pointer;
+    }
+
+    #btn-publis:hover {
+        transition: 0.5s;
+        background-color: rgb(255, 226, 79);
+        color: black;
+        transform: scale(1.1);
+    }
+
+    /* CONTENIDO CON POST FINAL */
+
+
+}
+
+/* ADAPTACION A TABLET */
+
+@media (max-width: 768px) {
+
+    /* BANNER INICIO */
+    .nav-item {
+        margin: 0 5px;
+    }
+
+    .banner-home {
+        height: 500px;
+    }
+
+    #title {
+        content-visibility: hidden;
+    }
+
+    .btn-sesion {
+        font-size: 15px;
+        padding: 10px;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    /* BANNER FINAL */
+
+    /* PAG - CLASE GENERAL (usan varios html) INICIO */
+
+    .pag {
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 1250px;
+        font-size: 20px;
+    }
+
+    .pag h2 {
+        padding-top: 030px;
+        font-size: 60px;
+        color: white;
+        text-align: center;
+    }
+
+    .pag a {
+        text-decoration: none;
+    }
+
+    /* PAG - CLASE GENERAL FINAL */
+
+    /* DISCIPLINAS INICIO */
+    .coachings img {
+        width: 90px;
+    }
+
+    .coachings {
+        display: inline-flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .coach {
+        width: fit-content;
+        justify-content: space-evenly;
+        padding: 0 50px;
+        margin: 20px 0px;
+    }
+
+    .coach-ontologico {
+        margin-bottom: 40px;
+    }
+
+    .btn-disc {
+        color: black;
+        background-color: white;
+        width: 240px;
+        font-size: 35px;
+        text-align: center;
+        padding: 10px;
+        margin: 50px auto;
+        cursor: pointer;
+    }
+
+    .btn-disc:hover {
+        transition: 0.5s;
+        background-color: rgb(255, 226, 79);
+        color: black;
+        transform: scale(1.09);
+    }
+
+    /* DISCIPLINAS FINAL*/
+    /* FOOTER INICIO */
+    footer {
+        height: 140px;
+        align-items: end;
+    }
+
+    footer img {
+        width: 80px;
+        margin-left: 40px;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+
+    footer .secciones {
+        line-height: 25px;
+    }
+
+    footer .redes {
+        font-size: 13px;
+        padding: 0;
+    }
+
+    footer .redes i {
+        font-size: 35px;
+    }
+
+    /* FOOTER FINAL */
+    /* DISCIPLINAS FINAL */
+
+    /* CONTENIDO CON POST INICIO */
+    .content {
+        display: inline-flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .content__titulo {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 36px;
+        text-align: center;
+        padding: 0;
+        order: 1;
+    }
+
+    .post {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .post img {
+        border: 2px solid black;
+        width: 70%;
+    }
+
+    .post1 {
+        order: 1;
+    }
+
+    .post2 {
+        order: 1;
+    }
+
+    .instagram {
+        display: inline-flex;
+        flex-direction: column-reverse;
+        font-size: 36px;
+        content-visibility: hidden;
+    }
+
+    .coachpubli {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 5px;
+        font-size: 30px;
+    }
+
     .coachpubli h2 {
         font-size: 40px;
         text-align: center;
         width: 100%;
     }
-    
+
     .coachpubli p {
         width: 80%;
         padding: 20px;
@@ -698,11 +984,11 @@ footer .redes i:hover {
         text-align: center;
         font-size: 24px;
     }
-    
+
     .coachpubli a {
         text-decoration: none;
     }
-    
+
     #btn-publis {
         background-color: black;
         color: white;
@@ -712,22 +998,90 @@ footer .redes i:hover {
         width: 240px;
         cursor: pointer;
     }
-    
+
     #btn-publis:hover {
         transition: 0.5s;
         background-color: rgb(255, 226, 79);
         color: black;
         transform: scale(1.1);
     }
-    
+
     /* CONTENIDO CON POST FINAL */
 }
 
 /* ADAPTACION A MOBILE */
+@media (max-width: 660px) {
+    /* FOOTER INCIO */
+
+    footer {
+        display: inline-flex;
+        width: 100%;
+        height: 70px;
+        background-color: rgb(72, 72, 72);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+
+    footer .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        padding: 0;
+        margin-left: 10px;
+        color: white;
+    }
+
+    footer img {
+        width: 40px;
+        height: auto;
+        margin: 0 10px;
+    }
+
+    footer .logo h2 {
+        font-size: 30px;
+        margin: 0 10px;
+    }
+
+    footer .secciones {
+        content-visibility: hidden;
+    }
+
+    footer .redes {
+        display: inline-flex;
+        padding: 10px;
+        align-items: center;
+        color: white;
+    }
+
+    footer .redes i {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        padding: 5px;
+    }
+
+    footer .redes p {
+        margin-top: 20px;
+        margin-left: 60px;
+        font-size: 10px;
+        width: 100px;
+        height: auto;
+    }
+
+    footer .redes i:hover {
+        color: rgb(33, 233, 251);
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+
+    /* FOOTER FINAL */
+}
 
 @media (max-width: 425px) {
+
     /* HEADER INICIO */
-    main{
+    main {
         width: 425px;
     }
 
@@ -738,16 +1092,17 @@ footer .redes i:hover {
         margin-left: 15px;
     }
 
-    header i{
+    header i {
         visibility: visible;
-        font-size: 30px;
-        margin-top: 15px;
+        font-size: 10px;
     }
 
     header .links {
         display: inline-flex;
         text-decoration: none;
-        visibility: hidden;
+        visibility: visible;
+        margin: 0;
+        padding: 0;
     }
 
     header .links li {
@@ -758,7 +1113,7 @@ footer .redes i:hover {
         padding-left: 10px;
         text-decoration: none;
         color: black;
-        font-size: 20px;
+        font-size: 17px;
     }
 
     header ul.links li a:hover {
@@ -769,77 +1124,78 @@ footer .redes i:hover {
 
     /* HEADER FINAL */
 
-/* BANNER INICIO */
+    /* BANNER INICIO */
 
-.banner-home {
-    background-image: url(../img/overlaySentidoDeVida.png);
-    width: 425px;
-    height: 300px;
-    background-color: aqua;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Hammersmith One', sans-serif;
-}
+    .banner-home {
+        background-image: url(../img/overlaySentidoDeVida.png);
+        width: 425px;
+        height: 300px;
+        background-color: aqua;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Hammersmith One', sans-serif;
+    }
 
-.banner-home #title{
-    content-visibility: hidden;
-}
+    .banner-home #title {
+        content-visibility: hidden;
+    }
 
-.banner-home h2{
-    color: white;
-    font-size: 25px;
-    -webkit-text-stroke: 0px;
-}
+    .banner-home h2 {
+        color: white;
+        font-size: 25px;
+        -webkit-text-stroke: 0px;
+    }
 
-.banner-home a {
-    text-decoration: none;
-    color: black;
-    order: 1;
-}
+    .banner-home a {
+        text-decoration: none;
+        color: black;
+        order: 1;
+    }
 
-.btn-sesion {
-    margin: 0px auto;
-    padding: 10px;
-    width: 180px;
-    text-align: center;;
-    background-color: rgb(184, 0, 0);
-    cursor: pointer;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-}
+    .btn-sesion {
+        margin: 0px auto;
+        padding: 10px;
+        width: 180px;
+        text-align: center;
+        ;
+        background-color: rgb(184, 0, 0);
+        cursor: pointer;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+    }
 
-.btn-sesion:hover {
-    transition: 0.5s;
-    background-color: black;
-    color: white;
-    transform: scale(1.1);
-}
+    .btn-sesion:hover {
+        transition: 0.5s;
+        background-color: black;
+        color: white;
+        transform: scale(1.1);
+    }
 
-/* BANNER FINAL */
-/* CONTENIDO CON POSTS INICIO */
+    /* BANNER FINAL */
+    /* CONTENIDO CON POSTS INICIO */
 
-.content {
-    display: inline-flex;
-    flex-direction: column;
-    height: 800px;
-}
+    .content {
+        display: inline-flex;
+        flex-direction: column;
+        height: auto;
+    }
 
-.content__titulo {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 26px;
-    text-align: center;
-    padding: 0;
-    order: 1;
-    /* padding: 60px 20px 0px 20px; */
-}
+    .content__titulo {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 26px;
+        text-align: center;
+        padding: 0;
+        order: 1;
+        /* padding: 60px 20px 0px 20px; */
+    }
 
-.post{
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
+    .post {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .post img {
@@ -847,131 +1203,385 @@ footer .redes i:hover {
         width: 70%;
     }
 
-.post1 {
-    order: 1;
-}
+    .post1 {
+        order: 1;
+    }
 
-.post2 {
-    order: 1;
-}
+    .post2 {
+        order: 1;
+    }
 
-.instagram {
-    display: inline-flex;
-    flex-direction: column-reverse;
-    font-size: 36px;
-    content-visibility: hidden;
-}
+    .instagram {
+        display: inline-flex;
+        flex-direction: column-reverse;
+        font-size: 36px;
+        content-visibility: hidden;
+    }
 
-.coachpubli {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 5px;
-    font-size: 30px;
-}
+    .coachpubli {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 5px;
+        font-size: 30px;
+    }
 
-.coachpubli h2 {
-    font-size: 35px;
-    text-align: center;
-    width: 375px;
-}
+    .coachpubli h2 {
+        font-size: 35px;
+        text-align: center;
+        width: 375px;
+    }
 
-.coachpubli p {
-    padding: 0;
-    text-align: center;
-    font-size: 20px;
-}
+    .coachpubli p {
+        padding: 0;
+        text-align: center;
+        font-size: 20px;
+    }
 
-.coachpubli a {
-    text-decoration: none;
-}
+    .coachpubli a {
+        text-decoration: none;
+    }
 
-#btn-publis {
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: 20px auto 10px auto;
-    font-size: 18px;
-    width: 240px;
-    cursor: pointer;
-}
+    #btn-publis {
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 20px auto 10px auto;
+        font-size: 18px;
+        width: 240px;
+        cursor: pointer;
+    }
 
-#btn-publis:hover {
-    transition: 0.5s;
-    background-color: rgb(255, 226, 79);
-    color: black;
-    transform: scale(1.1);
-}
+    #btn-publis:hover {
+        transition: 0.5s;
+        background-color: rgb(255, 226, 79);
+        color: black;
+        transform: scale(1.1);
+    }
 
-/* CONTENIDO CON POST FINAL */
-/* FOOTER INCIO */
+    /* CONTENIDO CON POST FINAL */
+    /* PAG - CLASE GENERAL (usan varios html) INICIO */
 
-footer {
-    display: inline-flex;
-    width: 100%;
-    height: 70px;
-    margin-top: 230px;
-    background-color: rgb(72, 72, 72);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
+    .pag {
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 1650px;
+        font-size: 20px;
+    }
+
+    .pag h2 {
+        padding-top: 030px;
+        font-size: 60px;
+        color: white;
+        text-align: center;
+    }
+
+    .pag a {
+        text-decoration: none;
+    }
+
+    /* PAG - CLASE GENERAL FINAL */
+
+    /* DISCIPLINAS INICIO */
+    .coachings img {
+        width: 90px;
+    }
+
+    .coachings {
+        display: inline-flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .coach {
+        width: fit-content;
+        justify-content: space-evenly;
+        padding: 0 50px;
+        margin: 20px 0px;
+    }
+
+    .coach-ontologico {
+        margin-bottom: 40px;
+    }
+
+    .btn-disc {
+        color: black;
+        background-color: white;
+        width: 240px;
+        font-size: 35px;
+        text-align: center;
+        padding: 10px;
+        margin: 20px auto;
+        cursor: pointer;
+    }
+
+    .btn-disc:hover {
+        transition: 0.5s;
+        background-color: rgb(255, 226, 79);
+        color: black;
+        transform: scale(1.09);
+    }
+
+    /* DISCIPLINAS FINAL*/
+
+    /* FOOTER INCIO */
+
+    footer {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+        background-color: rgb(72, 72, 72);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
 
 
-footer .logo{
-    width: 20px;
-    padding: 0;
-    margin-left: 10px;
-    color: white;
-}
+    footer .logo {
+        flex-direction: column;
+        padding: 0;
+        margin-left: 10px;
+        color: white;
+    }
 
-footer .logo:hover {
-    color: #46A1CC;
-    transition: 0.3s;
-    transform: scale(1.01);
-}
+    footer .logo:hover {
+        color: #46A1CC;
+        transition: 0.3s;
+        transform: scale(1.01);
+    }
 
-footer img {
-    width: 40px;
-    margin: 10px 0px 0px 17px;
-    height: auto;
-}
+    footer img {
+        width: 40px;
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
 
-footer .logo h2{
-    width: 90px;
-    font-size: 10px;
-}
+    footer .logo h2 {
+        margin-left: 20px;
+        width: 90px;
+        font-size: 10px;
+    }
 
-footer .secciones {
-    content-visibility: hidden;
-}
+    footer .secciones {
+        content-visibility: hidden;
+    }
 
-footer .redes {
-    display: inline-flex;
-    padding: 10px;
-    align-items: center;
-    color: white;
-}
+    footer .redes {
+        display: inline-flex;
+        padding: 10px;
+        align-items: center;
+        color: white;
+    }
 
-footer .redes i {
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    padding: 5px;
-}
+    footer .redes i {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        padding: 5px;
+    }
 
-footer .redes p{
-    margin-top: 20px;
-    margin-left: 60px;
-    font-size: 10px;
-    width: 100px;
-    height: auto;
-}
+    footer .redes p {
+        margin-top: 20px;
+        margin-left: 60px;
+        font-size: 10px;
+        width: 100px;
+        height: auto;
+    }
 
-footer .redes i:hover {
-    color: rgb(33, 233, 251);
-    transform: scale(1.05);
-    transition: 0.3s;
-}
+    footer .redes i:hover {
+        color: rgb(33, 233, 251);
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
 
-/* FOOTER FINAL */
+    /* FOOTER FINAL */
+
+
+    @media (max-width: 375px) {
+        main {
+            width: 375px;
+        }
+
+        header {
+            width: 375px;
+        }
+
+        header .links {
+            display: inline-flex;
+            text-decoration: none;
+            visibility: visible;
+            margin: 0;
+            padding: 0;
+        }
+
+        header .links li {
+            list-style: none;
+        }
+
+        header ul.links li a {
+            padding-left: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+
+        header ul.links li a:hover {
+            transition: 0.5s;
+            font-size: 22px;
+            color: rgb(228, 74, 8);
+        }
+
+        .banner-home {
+            width: 100%;
+        }
+
+        .content {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            display: inline-flex;
+            width: 100%;
+            height: 70px;
+            background-color: rgb(72, 72, 72);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        footer .logo h2 {
+            width: 90px;
+            font-size: 10px;
+        }
+
+        footer .secciones {
+            content-visibility: hidden;
+        }
+
+        footer .redes {
+            display: inline-flex;
+            padding: 10px;
+            align-items: center;
+            color: white;
+        }
+
+        footer .redes i {
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            padding: 5px;
+        }
+
+        footer .redes p {
+            margin: 0;
+            margin-left: 30px;
+            padding: 0;
+            font-size: 10px;
+            width: 100px;
+            height: auto;
+        }
+
+        /* DISCIPLINAS INICIO */
+        .pag{
+            height: 1150px;
+        }
+        .btn-disc{
+            font-size: 20px;
+            padding: 5px;
+            width: 150px;
+        }
+        .coach{
+            font-size: 15px;
+            margin: 5px 0px;
+        }
+        .coach img{
+            width: 70px;
+        }
+        .coach h3{
+            font-size: 25px;
+        }
+        /* DISPLINAS FINAL */
+    }
+
+    @media (max-width: 320px) {
+        .pag{
+            width: 320px;
+            height: 930px;
+            margin: 0;
+            padding: 0;
+        }
+        .pag h2{
+            font-size: 40px;
+        }
+        .coach{
+            font-size: 12px;
+        }
+        .coach img{
+            width: 50px;
+        }
+        .coach h3{
+            font-size: 20px;
+        }
+        header {
+            width: 320px;
+        }
+
+        main {
+            width: 320px;
+        }
+
+        .content {
+            width: 320px;
+            height: auto;
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner-home {
+            width: 320px;
+            margin: 0;
+        }
+
+        footer {
+            display: inline-flex;
+            width: 320px;
+            height: 70px;
+            background-color: rgb(72, 72, 72);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        footer .logo h2 {
+            width: 90px;
+            font-size: 10px;
+        }
+
+        footer .secciones {
+            content-visibility: hidden;
+        }
+
+        footer .redes {
+            display: inline-flex;
+            padding: 10px;
+            align-items: center;
+            color: white;
+        }
+
+        footer .redes i {
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            padding: 5px;
+        }
+
+        footer .redes p {
+            margin: 0;
+            margin-left: 30px;
+            padding: 0;
+            font-size: 5px;
+            width: 70px;
+            height: auto;
+        }
+    }
 
 }
