@@ -1,322 +1,859 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* border: 1px solid red; */
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 /* HEADER INICIO */
-
 .mariposa {
-    width: 40px;
-    height: 40px;
-    margin: 0px 20px;
-}
+  width: 40px;
+  height: 40px;
+  margin: 0px 20px; }
 
 header .links {
-    display: inline-flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: end;
-    text-decoration: none;
-    margin-left: 300px;
-}
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: end;
+  text-decoration: none;
+  margin-left: 300px; }
 
 header .links li {
-    list-style: none;
-    padding: 0;
-}
+  list-style: none;
+  padding: 0; }
 
 header ul.links li a {
-    padding-left: 10px;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px; }
 
 header ul.links li a:hover {
-    transition: 0.5s;
-    font-size: 22px;
-    color: rgb(228, 74, 8);
-}
+  transition: 0.5s;
+  font-size: 22px;
+  color: #e44a08; }
 
 header i {
-    font-size: 20px;
-    content-visibility: hidden;
-}
+  font-size: 20px;
+  content-visibility: hidden; }
 
 /* HEADER FINAL */
-
 /* BANNER INICIO */
-
 .banner-home {
-    width: 100%;
-    height: 850px;
-    padding-top: 50px;
-    margin: 0px auto;
-    background-color: aqua;
-    background-image: url(../img/overlaySentidoDeVida.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Hammersmith One', sans-serif;
-}
+  width: 100%;
+  height: 850px;
+  padding-top: 50px;
+  margin: 0px auto;
+  background-color: aqua;
+  background-image: url(../img/overlaySentidoDeVida.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Hammersmith One', sans-serif; }
 
 .banner-home h2 {
-    text-align: center;
-    font-size: 60px;
-    color: white;
-    -webkit-text-stroke: 3px black;
-}
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  -webkit-text-stroke: 3px black; }
 
 #title {
-    font-size: 140px;
-    padding-top: 50px;
-    -webkit-text-stroke: 5px black;
-}
+  font-size: 140px;
+  padding-top: 50px;
+  -webkit-text-stroke: 5px black; }
 
 .banner-home a {
-    text-decoration: none;
-    color: black;
-}
+  text-decoration: none;
+  color: black; }
 
 .btn-sesion {
-    background-color: white;
-    text-align: center;
-    padding: 20px;
-    margin: 0 auto;
-    margin-top: 100px;
-    width: 290px;
-    font-size: 22px;
-}
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 290px;
+  font-size: 22px; }
 
 .btn-sesion:hover {
-    transition: 0.5s;
-    background-color: black;
-    color: white;
-    transform: scale(1.1);
-}
+  transition: 0.5s;
+  background-color: black;
+  color: white;
+  transform: scale(1.1); }
 
 /* BANNER FINAL */
-
 /* CONTENIDO CON POSTS INICIO */
-
 .content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    height: 800px;
-}
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 800px; }
 
 .content__titulo {
-    grid-area: 1 / 1 / 2 / 4;
-    font-size: 50px;
-    padding: 60px 20px 0px 20px;
-}
+  grid-area: 1 / 1 / 2 / 4;
+  font-size: 50px;
+  padding: 60px 20px 0px 20px; }
 
 .post img {
-    width: 90%;
-    height: auto;
-    margin: 0px 20px 20px 20px;
-    border: 3px solid black;
-}
+  width: 90%;
+  height: auto;
+  margin: 0px 20px 20px 20px;
+  border: 3px solid black; }
 
 .post {
-    padding: 0px 5px 5px 5px;
-}
+  padding: 0px 5px 5px 5px; }
 
 .post1 {
-    grid-area: 2 / 1 / 3 / 2;
-}
+  grid-area: 2 / 1 / 3 / 2; }
 
 .post2 {
-    grid-area: 2 / 2 / 4 / 3;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    margin-bottom: 10px;
-}
+  grid-area: 2 / 2 / 4 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-bottom: 10px; }
 
 .instagram {
-    grid-area: 3 / 1 / 4 / 2;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-size: 36px;
-}
+  grid-area: 3 / 1 / 4 / 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 36px; }
 
 .instagram a {
-    text-decoration: none;
-    color: #244970;
-    font-size: 100px;
-}
+  text-decoration: none;
+  color: #244970;
+  font-size: 100px; }
 
 .instagram h4 {
-    cursor: pointer;
-}
+  cursor: pointer; }
 
 .instagram a:hover,
 .instagramh4:hover {
-    color: #00295f;
-    transition: 0.3s;
-    transform: scale(1.1);
-}
+  color: #00295f;
+  transition: 0.3s;
+  transform: scale(1.1); }
 
 .coachpubli {
-    grid-area: 1 / 3 / 4 / 4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 5px;
-    font-size: 30px;
-}
+  grid-area: 1 / 3 / 4 / 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5px;
+  font-size: 30px; }
 
 .coachpubli h2 {
-    font-size: 40px;
-}
+  font-size: 40px; }
 
 .coachpubli p {
-    padding-top: 50px;
-    margin-bottom: 70px;
-}
+  padding-top: 50px;
+  margin-bottom: 70px; }
 
 .coachpubli a {
-    text-decoration: none;
-}
+  text-decoration: none; }
 
 #btn-publis {
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: 0px auto;
-    font-size: 18px;
-    padding: 20px;
-    width: 240px;
-    cursor: pointer;
-}
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 18px;
+  padding: 20px;
+  width: 240px;
+  cursor: pointer; }
 
 #btn-publis:hover {
-    transition: 0.5s;
-    background-color: rgb(255, 226, 79);
-    color: black;
-    transform: scale(1.1);
-}
+  transition: 0.5s;
+  background-color: #ffe24f;
+  color: black;
+  transform: scale(1.1); }
 
 /* CONTENIDO CON POST FINAL */
-
 /* FOOTER INCIO */
-
 footer {
-    width: 100%;
-    height: 150px;
-    background-color: rgb(72, 72, 72);
-    display: inline-flex;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
+  width: 100%;
+  height: 150px;
+  background-color: #484848;
+  display: inline-flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 footer .logo {
-    padding-left: 50px;
-    color: white;
-}
+  padding-left: 50px;
+  color: white; }
 
 footer .logo:hover {
-    color: #46A1CC;
-    transition: 0.3s;
-    transform: scale(1.01);
-}
+  color: #46A1CC;
+  transition: 0.3s;
+  transform: scale(1.01); }
 
 footer img {
-    width: 100px;
-    height: auto;
-    margin-left: 70px;
-}
+  width: 100px;
+  height: auto;
+  margin-left: 70px; }
 
 footer .secciones {
-    text-align: center;
-    list-style-type: none;
-    font-size: 15px;
-    line-height: 30px;
-    margin: 0 auto;
-}
+  text-align: center;
+  list-style-type: none;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 0 auto; }
 
 footer .secciones li a {
-    text-decoration: none;
-    color: white;
-}
+  text-decoration: none;
+  color: white; }
 
 footer .secciones li a:hover {
-    color: rgb(33, 233, 251);
-    cursor: pointer;
-    transition: 0.3s;
-}
+  color: #21e9fb;
+  cursor: pointer;
+  transition: 0.3s; }
 
 footer .redes {
-    text-align: center;
-    padding-top: 30px;
-    padding-right: 40px;
-    color: white;
-}
+  text-align: center;
+  padding-top: 30px;
+  padding-right: 40px;
+  color: white; }
 
 footer .redes p {
-    width: 230px;
-}
+  width: 230px; }
 
 footer .redes i {
-    font-size: 50px;
-    color: white;
-}
+  font-size: 50px;
+  color: white; }
 
 footer .redes i:hover {
-    color: rgb(33, 233, 251);
-    transform: scale(1.05);
-    transition: 0.3s;
-}
+  color: #21e9fb;
+  transform: scale(1.05);
+  transition: 0.3s; }
 
 /* FOOTER FINAL */
-
-/* PAG - CLASE GENERAL (usan varios html) INICIO */
-
+/* PAG INICIO */
 .pag {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 750px;
+  font-size: 20px; }
+
+.pag h2 {
+  padding-top: 030px;
+  font-size: 60px;
+  color: white;
+  text-align: center; }
+
+.pag a {
+  text-decoration: none; }
+
+/* PAG - CLASE GENERAL FINAL */
+/* DISCIPLINAS INICIO */
+.coachings img {
+  width: 90px; }
+
+.coachings {
+  display: inline-flex; }
+
+.coach {
+  width: fit-content;
+  justify-content: space-evenly;
+  padding: 0 50px;
+  margin: 70px 0; }
+
+.btn-disc {
+  color: black;
+  background-color: white;
+  width: 240px;
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+  margin: 0px auto;
+  cursor: pointer; }
+
+.btn-disc:hover {
+  transition: 0.5s;
+  background-color: #ffe24f;
+  color: black;
+  transform: scale(1.09); }
+
+/* DISCIPLINAS FINAL */
+/* CONTACTO INICIO */
+.casilla {
+  font-size: 20px;
+  width: 100%; }
+
+.contacto {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  color: black; }
+
+.contacto .right .titulo {
+  color: black;
+  width: 100vh;
+  height: auto;
+  padding: 0;
+  padding-right: 120px; }
+
+.left img {
+  width: 95%;
+  height: auto; }
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px; }
+
+.datos {
+  display: flex;
+  flex-direction: row; }
+
+.misDatos {
+  padding-right: 100px; }
+
+.misDatos p {
+  padding-top: 15px; }
+
+.misDatos h3 {
+  padding-top: 50px; }
+
+.tusDatos {
+  padding-top: 50px;
+  width: 350px; }
+
+.tusDatos form {
+  background-color: #848484;
+  padding: 15px; }
+
+.tusDatos h2 {
+  padding: 5px;
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  color: black; }
+
+.tusDatos h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.tusDatos span {
+  color: #46A1CC;
+  text-shadow: 0px 0px 3px black; }
+
+.tusDatos label {
+  font-size: 25px; }
+
+.tusDatos input {
+  margin: 10px 0px;
+  padding: 5px 30px; }
+
+#boton {
+  background-color: #00367D;
+  color: white;
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  margin-left: 110px;
+  cursor: pointer; }
+
+#boton:hover {
+  background-color: #244970;
+  transform: scale(1.03);
+  transition: 0.5s; }
+
+/* CONTACTO FINAL */
+/* PLANES INICIO */
+.planes {
+  background-image: url(../img/fondoMetamorfosis.png);
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: auto;
+  color: white;
+  padding-top: 10px;
+  font-family: 'Hammersmith One', sans-serif;
+  -webkit-text-stroke: 1px black; }
+
+.planes h2 {
+  padding-top: 30px;
+  font-size: 60px;
+  color: white;
+  text-align: center; }
+
+.planes a {
+  text-decoration: none; }
+
+.contenedor__planes {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.nombre-plan {
+  background-color: #00367D;
+  border-radius: 30px;
+  border: 4px solid black;
+  position: absolute;
+  width: 300px;
+  transform: translate(-1.3%, -4%); }
+
+.nombre-plan img {
+  width: 130px;
+  position: absolute;
+  transform: translate(60%, -60%); }
+
+.desc-plan {
+  padding: 120px 10px 0px 10px; }
+
+.desc-plan h3 {
+  font-size: 34px;
+  text-shadow: 0px 0px 1px black; }
+
+.plan {
+  background-color: #244970;
+  width: 300px;
+  height: 500px;
+  border-radius: 35px;
+  border: 4px solid black; }
+
+.plan h2 {
+  padding: 20px;
+  font-size: 38px; }
+
+.plan .a-tan-solo {
+  text-align: center;
+  margin-top: 10px; }
+
+.plan .precio {
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  font-size: 40px;
+  margin-top: 17px; }
+
+.plan .precio h3 {
+  font-size: 45px; }
+
+.plan1 .precio,
+.plan2 .precio {
+  margin-top: 13px; }
+
+.plan1 .a-tan-solo,
+.plan2 .a-tan-solo {
+  margin-top: 55px; }
+
+.plan3 .a-tan-solo {
+  margin-top: 10px; }
+
+.plan2 img {
+  width: 80px;
+  transform: translate(140%, -60%); }
+
+.plan3 img {
+  width: 100px;
+  transform: translate(103.5%, -60%); }
+
+.plan3 #mariposaPlanes {
+  width: 60px;
+  transform: translate(205%, -60%); }
+
+.planes p {
+  padding: 20px 0px;
+  margin: 0;
+  text-align: center;
+  text-shadow: 0px 0px 1px black; }
+
+/* PLANES FINAL */
+/* SOBRE MI INICIO */
+.sobreMi {
+  background-color: #545454;
+  color: black;
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+  font-size: 20px; }
+
+.sobreMi h2 {
+  padding-top: 030px;
+  font-size: 60px;
+  color: white;
+  text-align: center; }
+
+.sobreMi a {
+  text-decoration: none; }
+
+.sec {
+  width: 35%;
+  height: auto;
+  text-align: center; }
+
+.sec1 img {
+  width: 250px;
+  margin-top: 40px; }
+
+.sec1 h2 {
+  padding: 0;
+  padding-top: 10px;
+  font-size: 45px;
+  text-shadow: 0px 0px 5px black; }
+
+.sec1 h4 {
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 0 20px;
+  color: #e2e2e2;
+  text-shadow: 0px 0px 5px black; }
+
+.sec2 {
+  background-color: black;
+  color: white;
+  text-align: left; }
+
+.sec2 h2 {
+  margin: 0px 50px;
+  text-align: left; }
+
+.sec2 p {
+  margin: 50px 90px 0px 50px;
+  line-height: 30px;
+  font-size: 30px; }
+
+.sec3 h2 {
+  margin-bottom: 70px;
+  text-shadow: 0px 0px 5px black; }
+
+.sec3 h3 {
+  margin-top: 70px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 0px 0px 5px black; }
+
+.sec3 h3:hover {
+  transition: 3s;
+  text-shadow: 0px 0px 15px #00367D; }
+
+.contactame p {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  padding-top: 60px;
+  text-align: center; }
+
+.btn-sobreMi {
+  width: 230px;
+  padding: 15px;
+  margin: 30px auto;
+  background-color: white;
+  text-align: center;
+  color: black;
+  cursor: pointer; }
+
+.btn-sobreMi:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  background-color: gray; }
+
+.metanoia-cont {
+  background-color: black;
+  border-radius: 35px;
+  color: white;
+  margin: 40px auto;
+  padding: 0px 30px 10px 30px;
+  width: 350px;
+  line-height: 40px;
+  text-align: center; }
+
+.metanoia-cont img {
+  filter: blur(2px);
+  width: 100px;
+  position: absolute;
+  transform: translate(-40%, -55%);
+  transform-origin: center;
+  animation: zoominout 2s infinite; }
+
+@keyframes zoominout {
+  0% {
+    transform: scale(1) translate(-40%, -55%); }
+  50% {
+    transform: scale(1.02) translate(-40%, -55%); }
+  100% {
+    transform: scale(1) translate(-40%, -55%); } }
+
+.metanoia-cont h2 {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  transform: translate(27%, -40%);
+  font-size: 40px;
+  text-shadow: 0px 0px 5px black; }
+
+.metanoia-cont p {
+  padding-top: 40px;
+  font-size: 30px; }
+
+.metanoia-cont span {
+  color: #46A1CC; }
+
+/* SOBRE MI FINAL */
+/* ADAPTACION A LAPTOP */
+@media (max-width: 1024px) {
+  header .links {
+    margin: 0 130px; }
+  /* CONTACTO INICIO */
+  .left {
+    width: 40%;
+    height: auto; }
+  .right {
+    display: flex;
+    width: 60%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 5px; }
+  .contacto {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: black; }
+  .contacto .right .titulo {
+    color: black;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    text-align: center; }
+  .left img {
+    width: 100%;
+    height: auto;
+    padding-right: 50px; }
+  .datos {
+    display: flex;
+    flex-direction: row; }
+  .misDatos {
+    padding: 0; }
+  .misDatos p {
+    padding-top: 0px; }
+  .misDatos h3 {
+    font-size: 22px;
+    padding: 20px 100px 0px 0px; }
+  .tusDatos {
+    margin: 0;
+    padding: 10px;
+    width: 50%; }
+  .tusDatos form {
+    background-color: #848484;
+    padding: 15px;
+    margin-top: 15px; }
+  .tusDatos h2 {
+    padding: 5px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: black; }
+  .tusDatos h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center; }
+  .tusDatos label {
+    font-size: 15px; }
+  .tusDatos input {
+    padding: 0;
+    margin: 0; }
+  .casilla {
+    font-size: 15px;
+    width: 100%; }
+  #boton {
+    background-color: #00367d;
+    color: white;
+    border: 1px solid black;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 100px;
+    text-align: center;
+    cursor: pointer; }
+  #boton:hover {
+    background-color: #244970;
+    transform: scale(1.03);
+    transition: 0.5s; }
+  /* CONTACTO FINAL */
+  /* PLANES INICIO */
+  .contenedor__planes {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+  .nombre-plan {
+    width: 80%;
+    transform: translate(-0.7%, -4%); }
+  .nombre-plan h2 {
+    margin-top: 15px; }
+  .desc-plan {
+    padding: 120px 10px 0px 10px; }
+  .desc-plan h3 {
+    font-size: 40px;
+    text-shadow: 0px 0px 1px black; }
+  .plan {
+    width: 80%;
+    height: 400px;
+    margin-bottom: 80px;
+    background: linear-gradient(to bottom, #00367d, #325e8c 90%); }
+  .plan h2 {
+    padding: 20px;
+    font-size: 42px; }
+  .plan1 .a-tan-solo,
+  .plan2 .a-tan-solo {
+    margin-top: 0px; }
+  .plan3 .a-tan-solo {
+    margin-top: 0px; }
+  .plan1 img {
+    width: 160px;
+    position: absolute;
+    transform: translate(197%, -60%); }
+  .plan2 img {
+    width: 100px;
+    transform: translate(350%, -60%); }
+  .plan3 img {
+    width: 120px;
+    transform: translate(285%, -60%); }
+  .plan3 #mariposaPlanes {
+    width: 75px;
+    transform: translate(485%, -60%); }
+  .planes p {
+    padding: 5px 0px;
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 0px 0px 1px black; }
+  /* PLANES FINAL */
+  /* SOBRE MI INICIO */
+  .sobreMi {
+    width: 100%;
+    height: auto;
+    background-color: #545454;
+    color: black;
+    display: inline-flex;
+    flex-direction: column; }
+  .sec {
+    width: 100%;
+    text-align: center; }
+  .sec1 {
+    display: inline-flex;
+    flex-direction: row;
+    margin-bottom: 60px; }
+  .sec1 h4 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    color: #e2e2e2;
+    text-shadow: 0px 0px 5px black; }
+  .secTextos {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 40px auto; }
+  .sec1 img {
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    margin-left: 60px;
+    margin-top: 60px; }
+  .sec1 h2 {
+    font-size: 65px;
+    margin: 0;
+    padding: 0; }
+  .sec2 {
+    background-color: black;
+    color: white;
+    text-align: center; }
+  .sec2 h2 {
+    margin: 15px auto;
+    text-align: center; }
+  .sec2 p {
+    margin: 30px auto;
+    line-height: 45px;
+    font-size: 36px; }
+  .sec3 {
+    margin-top: 5px; }
+  .sec3 h3 {
+    font-size: 38px;
+    color: white;
+    margin: 0;
+    padding-bottom: 30px; }
+  .contactame p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    text-align: center; }
+  .btn-sobreMi {
+    width: 230px;
+    padding: 15px;
+    margin: 30px auto;
+    background-color: white;
+    text-align: center;
+    color: black;
+    cursor: pointer; }
+  .btn-sobreMi:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: gray; }
+  .metanoia-cont {
+    background-color: black;
+    border-radius: 35px;
+    color: white;
+    position: relative;
+    margin: 40px auto;
+    padding: 0px 30px 10px 30px;
+    width: 600px;
+    text-align: center; }
+  .metanoia-cont img {
+    filter: blur(2px);
+    width: 100px;
+    position: absolute;
+    transform: translate(-40%, -60%); }
+  .metanoia-cont h2 {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    transform: translate(88%, -40%);
+    font-size: 40px; }
+  .metanoia-cont p {
+    padding-top: 30px;
+    font-size: 30px; }
+  .metanoia-cont span {
+    color: #46a1cc; }
+  /* SOBRE MI FINAL */
+  /* PAG - CLASE GENERAL (usan varios html) INICIO */
+  .pag {
     background-color: black;
     color: white;
     width: 100%;
-    height: 750px;
-    font-size: 20px;
-}
-
-.pag h2 {
+    height: 850px;
+    font-size: 20px; }
+  .pag h2 {
     padding-top: 030px;
     font-size: 60px;
     color: white;
-    text-align: center;
-}
-
-.pag a {
-    text-decoration: none;
-}
-
-/* PAG - CLASE GENERAL FINAL */
-
-/* DISCIPLINAS INICIO */
-
-.coachings img {
-    width: 90px;
-}
-
-.coachings {
-    display: inline-flex;
-}
-
-.coach {
+    text-align: center; }
+  .pag a {
+    text-decoration: none; }
+  /* PAG - CLASE GENERAL FINAL */
+  /* DISCIPLINAS INICIO */
+  .coachings img {
+    width: 90px; }
+  .coachings {
+    display: inline-flex; }
+  .coach {
     width: fit-content;
     justify-content: space-evenly;
     padding: 0 50px;
-    margin: 70px 0;
-}
-
-.btn-disc {
+    margin: 20px 0px 70px 0; }
+  .btn-disc {
     color: black;
     background-color: white;
     width: 240px;
@@ -324,2469 +861,1102 @@ footer .redes i:hover {
     text-align: center;
     padding: 10px;
     margin: 0px auto;
-    cursor: pointer;
-}
-
-.btn-disc:hover {
+    cursor: pointer; }
+  .btn-disc:hover {
     transition: 0.5s;
-    background-color: rgb(255, 226, 79);
+    background-color: #ffe24f;
     color: black;
-    transform: scale(1.09);
-}
-
-/* DISCIPLINAS FINAL */
-
-/* CONTACTO INICIO */
-
-.casilla {
-    font-size: 20px;
-    width: 100%;
-}
-
-.contacto {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    background-color: white;
-    color: black;
-}
-
-.contacto .right .titulo {
-    color: black;
-    width: 100vh;
-    height: auto;
+    transform: scale(1.09); }
+  footer {
+    height: 140px;
+    align-items: end; }
+  footer img {
+    width: 80px;
+    margin-left: 40px; }
+  footer h2 {
+    font-size: 20px; }
+  footer .secciones {
+    line-height: 25px; }
+  footer .redes {
+    font-size: 13px; }
+  footer .redes i {
+    font-size: 35px; }
+  /* DISCIPLINAS FINAL */
+  /* CONTENIDO CON POSTS INICIO */
+  .content {
+    display: inline-flex;
+    flex-direction: column;
+    height: auto; }
+  .content__titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    text-align: center;
     padding: 0;
-    padding-right: 120px;
-}
-
-.left img {
-    width: 95%;
-    height: auto;
-}
-
-.right {
+    order: 1;
+    /* padding: 60px 20px 0px 20px */ }
+  .post {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center; }
+  .post img {
+    border: 2px solid black;
+    width: 70%; }
+  .post1 {
+    order: 1; }
+  .post2 {
+    order: 1; }
+  .instagram {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    font-size: 36px;
+    content-visibility: hidden; }
+  .coachpubli {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-}
+    justify-content: center;
+    margin-right: 5px;
+    font-size: 30px; }
+  .coachpubli h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%; }
+  .coachpubli p {
+    padding: 0;
+    margin: 0 50px;
+    text-align: center;
+    font-size: 30px; }
+  .coachpubli a {
+    text-decoration: none; }
+  #btn-publis {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 20px auto 10px auto;
+    font-size: 18px;
+    width: 240px;
+    cursor: pointer; }
+  #btn-publis:hover {
+    transition: 0.5s;
+    background-color: #ffe24f;
+    color: black;
+    transform: scale(1.1); }
+  /* CONTENIDO CON POST FINAL */ }
 
-.datos {
+/* ADAPTACION A TABLET */
+@media (max-width: 768px) {
+  /* CONTACTO INICIO */
+  .left {
+    width: 100%;
+    height: auto; }
+  .right {
     display: flex;
-    flex-direction: row;
-}
-
-.misDatos {
-    padding-right: 100px;
-}
-
-.misDatos p {
-    padding-top: 15px;
-}
-
-.misDatos h3 {
-    padding-top: 50px;
-}
-
-.tusDatos {
-    padding-top: 50px;
-    width: 350px;
-}
-
-.tusDatos form {
-    background-color: rgb(132, 132, 132);
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 5px; }
+  .contacto {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: black; }
+  .contacto .right .titulo {
+    color: black;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    text-align: center; }
+  .left img {
+    width: 50%;
+    height: auto;
+    margin: 10px auto 30px calc(30%);
+    padding: 0;
+    border: 2px solid black; }
+  .datos {
+    display: flex;
+    flex-direction: row; }
+  .misDatos {
+    padding: 0px 0px 0px 60px; }
+  .misDatos p {
+    padding-top: 0px; }
+  .misDatos h3 {
+    font-size: 22px;
+    padding: 20px 100px 0px 0px; }
+  .tusDatos {
+    margin: 0;
+    padding: 10px;
+    width: 50%; }
+  .tusDatos form {
+    background-color: #848484;
     padding: 15px;
-}
-
-.tusDatos h2 {
+    margin-top: 15px; }
+  .tusDatos h2 {
     padding: 5px;
     width: 100%;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-    color: black;
-}
-
-.tusDatos h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.tusDatos span {
-    color: #46A1CC;
-    text-shadow: 0px 0px 3px black;
-}
-
-.tusDatos label {
-    font-size: 25px;
-}
-
-.tusDatos input {
-    margin: 10px 0px;
-    padding: 5px 30px;
-}
-
-#boton {
-    background-color: #00367D;
+    color: black; }
+  .tusDatos h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center; }
+  .tusDatos label {
+    font-size: 15px; }
+  .tusDatos input {
+    padding: 0;
+    margin: 0; }
+  .casilla {
+    font-size: 15px;
+    width: 100%; }
+  #boton {
+    background-color: #00367d;
     color: white;
     border: 1px solid black;
-    font-size: 20px;
-    padding: 10px 20px;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 100px;
     text-align: center;
-    margin-left: 110px;
-    cursor: pointer;
-}
-
-#boton:hover {
+    cursor: pointer; }
+  #boton:hover {
     background-color: #244970;
     transform: scale(1.03);
-    transition: 0.5s;
-}
-
-/* CONTACTO FINAL */
-
-/* PLANES INICIO */
-
-.planes {
-    background-image: url(../img/fondoMetamorfosis.png);
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    height: auto;
-    color: white;
-    padding-top: 10px;
-    font-family: 'Hammersmith One', sans-serif;
-    -webkit-text-stroke: 1px black;
-}
-
-.planes h2 {
-    padding-top: 30px;
-    font-size: 60px;
-    color: white;
-    text-align: center;
-}
-
-.planes a {
-    text-decoration: none;
-}
-
-.contenedor__planes {
-    margin-top: 100px;
+    transition: 0.5s; }
+  /* CONTACTO FINAL */
+  /* BANNER INICIO */
+  .nav-item {
+    margin: 0 5px; }
+  .banner-home {
+    height: 500px; }
+  #title {
+    content-visibility: hidden; }
+  .btn-sesion {
+    font-size: 15px;
+    padding: 10px;
+    width: 200px;
+    margin: 0 auto; }
+  /* BANNER FINAL */
+  /* PLANES INICIO */
+  .contenedor__planes {
+    margin-top: 40px;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
-}
-
-.nombre-plan {
-    background-color: #00367D;
-    border-radius: 30px;
-    border: 4px solid black;
-    position: absolute;
-    width: 300px;
-    transform: translate(-1.3%, -4%);
-}
-
-.nombre-plan img {
-    width: 130px;
-    position: absolute;
-    transform: translate(60%, -60%);
-}
-
-.desc-plan {
-    padding: 120px 10px 0px 10px;
-}
-
-.desc-plan h3 {
-    font-size: 34px;
-    text-shadow: 0px 0px 1px black;
-}
-
-.plan {
-    background-color: #244970;
-    width: 300px;
-    height: 500px;
-    border-radius: 35px;
-    border: 4px solid black;
-}
-
-.plan h2 {
+    align-items: center; }
+  .nombre-plan {
+    width: 90%;
+    transform: translate(-0.7%, -4%); }
+  .nombre-plan h2 {
+    margin-top: 15px; }
+  .desc-plan {
+    padding: 120px 10px 0px 10px; }
+  .desc-plan h3 {
+    font-size: 37px;
+    text-shadow: 0px 0px 1px black; }
+  .plan {
+    width: 90%;
+    height: 400px;
+    margin-bottom: 80px;
+    background: linear-gradient(to bottom, #00367d, #325e8c 90%); }
+  .plan h2 {
     padding: 20px;
-    font-size: 38px;
-}
-
-.plan .a-tan-solo {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.plan .precio {
-    display: flex;
-    flex-direction: row;
-    place-content: center;
-    font-size: 40px;
-    margin-top: 17px;
-}
-
-.plan .precio h3 {
-    font-size: 45px;
-}
-
-.plan1 .precio,
-.plan2 .precio {
-    margin-top: 13px;
-}
-
-.plan1 .a-tan-solo,
-.plan2 .a-tan-solo {
-    margin-top: 55px;
-}
-
-.plan3 .a-tan-solo {
-    margin-top: 10px;
-}
-
-.plan2 img {
-    width: 80px;
-    transform: translate(140%, -60%);
-}
-
-.plan3 img {
+    font-size: 42px; }
+  .plan1 .a-tan-solo,
+  .plan2 .a-tan-solo {
+    margin-top: 0px; }
+  .plan3 .a-tan-solo {
+    margin-top: 0px; }
+  .plan1 img {
+    width: 160px;
+    transform: translate(170%, -60%); }
+  .plan2 img {
     width: 100px;
-    transform: translate(103.5%, -60%);
-}
-
-.plan3 #mariposaPlanes {
-    width: 60px;
-    transform: translate(205%, -60%);
-}
-
-.planes p {
-    padding: 20px 0px;
+    transform: translate(300%, -60%); }
+  .plan3 img {
+    width: 120px;
+    transform: translate(235%, -60%); }
+  .plan3 #mariposaPlanes {
+    width: 75px;
+    transform: translate(405%, -60%); }
+  .planes p {
+    padding: 5px 0px;
     margin: 0;
+    font-size: 25px;
     text-align: center;
-    text-shadow: 0px 0px 1px black;
-}
-
-/* PLANES FINAL */
-
-/* SOBRE MI INICIO */
-
-.sobreMi {
-    background-color: #545454;
-    color: black;
-    display: inline-flex;
+    text-shadow: 0px 0px 1px black; }
+  /* PLANES FINAL */
+  /* SOBRE MI INICIO */
+  .sec1 img {
+    width: 280px;
+    margin: 0;
+    padding: 0;
+    margin-left: 60px;
+    margin-top: 60px; }
+  .sec1 h2 {
+    font-size: 50px;
+    margin: 10px auto;
+    padding: 0; }
+  .sec1 h4 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0 30px;
+    color: #e2e2e2;
+    text-shadow: 0px 0px 5px black; }
+  .sec2 {
+    background-color: black;
+    color: white;
+    text-align: center; }
+  .sec2 h2 {
+    margin: 0px auto;
+    text-align: center; }
+  .sec2 p {
+    margin: 20px 25px;
+    line-height: 40px;
+    font-size: 30px; }
+  .sec3 h2 {
+    font-size: 45px; }
+  .sec3 h3 {
+    font-size: 30px;
+    color: white;
+    margin: 0; }
+  .metanoia-cont h2 {
+    transform: translate(75%, -55%); }
+  /* SOBRE MI FINAL */
+  /* PAG - CLASE GENERAL (usan varios html) INICIO */
+  .pag {
+    background-color: black;
+    color: white;
     width: 100%;
-    height: auto;
-    font-size: 20px;
-}
-
-.sobreMi h2 {
+    height: 1250px;
+    font-size: 20px; }
+  .pag h2 {
     padding-top: 030px;
     font-size: 60px;
     color: white;
+    text-align: center; }
+  .pag a {
+    text-decoration: none; }
+  /* PAG - CLASE GENERAL FINAL */
+  /* DISCIPLINAS INICIO */
+  .coachings img {
+    width: 90px; }
+  .coachings {
+    display: inline-flex;
+    flex-direction: column;
+    height: auto; }
+  .coach {
+    width: fit-content;
+    justify-content: space-evenly;
+    padding: 0 50px;
+    margin: 20px 0px; }
+  .coach-ontologico {
+    margin-bottom: 40px; }
+  .btn-disc {
+    color: black;
+    background-color: white;
+    width: 240px;
+    font-size: 35px;
     text-align: center;
-}
-
-.sobreMi a {
-    text-decoration: none;
-}
-
-.sec {
-    width: 35%;
-    height: auto;
+    padding: 10px;
+    margin: 50px auto;
+    cursor: pointer; }
+  .btn-disc:hover {
+    transition: 0.5s;
+    background-color: #ffe24f;
+    color: black;
+    transform: scale(1.09); }
+  /* DISCIPLINAS FINAL*/
+  /* FOOTER INICIO */
+  footer {
+    height: 140px;
+    align-items: end; }
+  footer img {
+    width: 80px;
+    margin-left: 40px; }
+  footer h2 {
+    font-size: 20px; }
+  footer .secciones {
+    line-height: 25px; }
+  footer .redes {
+    font-size: 13px;
+    padding: 0; }
+  footer .redes i {
+    font-size: 35px; }
+  /* FOOTER FINAL */
+  /* DISCIPLINAS FINAL */
+  /* CONTENIDO CON POST INICIO */
+  .content {
+    display: inline-flex;
+    flex-direction: column;
+    height: auto; }
+  .content__titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
     text-align: center;
-}
-
-.sec1 img {
-    width: 250px;
-    margin-top: 40px;
-}
-
-.sec1 h2 {
     padding: 0;
-    padding-top: 10px;
-    font-size: 45px;
-    text-shadow: 0px 0px 5px black;
-}
-
-.sec1 h4 {
+    order: 1; }
+  .post {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center; }
+  .post img {
+    border: 2px solid black;
+    width: 70%; }
+  .post1 {
+    order: 1; }
+  .post2 {
+    order: 1; }
+  .instagram {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    font-size: 36px;
+    content-visibility: hidden; }
+  .coachpubli {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5px;
+    font-size: 30px; }
+  .coachpubli h2 {
+    font-size: 40px;
     text-align: center;
-    font-size: 20px;
-    line-height: 20px;
-    padding: 0 20px;
-    color: rgb(226, 226, 226);
-    text-shadow: 0px 0px 5px black;
-}
-
-.sec2 {
+    width: 100%; }
+  .coachpubli p {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px; }
+  .coachpubli a {
+    text-decoration: none; }
+  #btn-publis {
     background-color: black;
     color: white;
-    text-align: left;
-}
+    text-align: center;
+    margin: 0px auto 10px auto;
+    font-size: 18px;
+    width: 240px;
+    cursor: pointer; }
+  #btn-publis:hover {
+    transition: 0.5s;
+    background-color: #ffe24f;
+    color: black;
+    transform: scale(1.1); }
+  /* CONTENIDO CON POST FINAL */ }
 
-.sec2 h2 {
-    margin: 0px 50px;
-    text-align: left;
-}
-
-.sec2 p {
-    margin: 50px 90px 0px 50px;
-    line-height: 30px;
+/* ADAPTACION A MOBILE */
+@media (max-width: 660px) {
+  /* FOOTER INCIO */
+  footer {
+    display: inline-flex;
+    width: 100%;
+    height: 70px;
+    background-color: #484848;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+  footer .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    margin-left: 10px;
+    color: white; }
+  footer img {
+    width: 40px;
+    height: auto;
+    margin: 0 10px; }
+  footer .logo h2 {
     font-size: 30px;
-}
-
-.sec3 h2 {
-    margin-bottom: 70px;
-    text-shadow: 0px 0px 5px black;
-}
-
-.sec3 h3 {
-    margin-top: 70px;
-    font-size: 30px;
+    margin: 0 10px; }
+  footer .secciones {
+    content-visibility: hidden; }
+  footer .redes {
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    color: white; }
+  footer .redes i {
+    font-size: 20px;
+    text-align: center;
     color: white;
-    text-shadow: 0px 0px 5px black;
-}
+    padding: 5px; }
+  footer .redes p {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 10px;
+    width: 100px;
+    height: auto; }
+  footer .redes i:hover {
+    color: #21e9fb;
+    transform: scale(1.05);
+    transition: 0.3s; }
+  /* FOOTER FINAL */ }
 
-.sec3 h3:hover {
-    transition: 3s;
-    text-shadow: 0px 0px 15px #00367D;
-}
-
-.contactame p {
+@media (max-width: 425px) {
+  /* HEADER INICIO */
+  main {
+    width: 425px; }
+  .mariposa {
+    width: 40px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 15px; }
+  header i {
+    content-visibility: visible;
+    font-size: 10px; }
+  header .links {
+    display: inline-flex;
+    text-decoration: none;
+    content-visibility: visible;
+    margin: 0;
+    padding: 0; }
+  header .links li {
+    list-style: none; }
+  header ul.links li a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px; }
+  header ul.links li a:hover {
+    transition: 0.5s;
+    font-size: 22px;
+    color: #e44a08; }
+  /* HEADER FINAL */
+  /* CONTACTO INICIO */
+  .left {
+    width: 100%;
+    height: auto; }
+  .right {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 5px; }
+  .contacto {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: black; }
+  .contacto .right .titulo {
+    color: black;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    text-align: center; }
+  .left img {
+    width: 50%;
+    height: auto;
+    margin: 10px auto 30px calc(25%);
+    padding: 0;
+    border: 2px solid black; }
+  .datos {
+    display: flex;
+    flex-direction: column-reverse; }
+  .misDatos {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center; }
+  .misDatos p {
+    padding: 0; }
+  .misDatos h3 {
+    font-size: 22px;
+    padding: 0; }
+  .tusDatos {
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%; }
+  .tusDatos form {
+    background-color: #848484;
+    padding: 15px;
+    margin-top: 15px; }
+  .tusDatos h2 {
+    padding: 5px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: black; }
+  .tusDatos h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center; }
+  .tusDatos label {
+    font-size: 15px; }
+  .tusDatos input {
+    padding: 0;
+    margin: 0; }
+  .casilla {
+    font-size: 15px;
+    width: 100%; }
+  #boton {
+    background-color: #00367d;
+    color: white;
+    border: 1px solid black;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 120px;
+    text-align: center;
+    cursor: pointer; }
+  #boton:hover {
+    background-color: #244970;
+    transform: scale(1.03);
+    transition: 0.5s; }
+  /* CONTACTO FINAL */
+  /* PLANES INICIO */
+  .nombre-plan {
+    width: 90%;
+    transform: translate(-0.7%, -4%); }
+  .nombre-plan h2 {
+    margin-top: 15px; }
+  .desc-plan {
+    padding: 120px 10px 0px 10px; }
+  .desc-plan h3 {
+    font-size: 30px;
+    text-shadow: 0px 0px 1px black; }
+  .plan {
+    width: 90%;
+    height: auto;
+    margin-bottom: 60px;
+    background: linear-gradient(to bottom, #00367d, #325e8c 90%); }
+  .plan h2 {
+    padding: 15px;
+    font-size: 36px; }
+  .plan1 .a-tan-solo,
+  .plan2 .a-tan-solo {
+    margin-top: 0px; }
+  .plan3 .a-tan-solo {
+    margin-top: 0px; }
+  .plan1 img {
+    width: 130px;
+    transform: translate(90%, -60%); }
+  .plan2 img {
+    width: 80px;
+    transform: translate(190%, -60%); }
+  .plan3 img {
+    width: 100px;
+    transform: translate(140%, -60%); }
+  .plan3 #mariposaPlanes {
+    width: 60px;
+    transform: translate(266%, -60%); }
+  .planes p {
+    padding: 5px 0px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 0px 0px 1px black; }
+  /* PLANES FINAL */
+  /* SOBRE MI INICIO */
+  .sec1 {
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 20px; }
+  .sec1 img {
+    width: 250px;
+    margin: 40px auto auto;
+    padding: 0; }
+  .sec1 h2 {
+    font-size: 40px;
+    margin: 15px auto;
+    padding: 0; }
+  .secTextos {
+    margin: 0; }
+  .sec2 h2 {
+    margin: 0px auto;
+    text-align: center;
+    font-size: 35px; }
+  .sec2 p {
+    margin: 15px 10px;
+    line-height: 30px;
+    font-size: 25px; }
+  .sec3 {
+    margin: 0 5px; }
+  .sec3 h3 {
+    font-size: 20px;
+    color: white;
+    margin: 0 auto; }
+  .contactame p {
     padding: 0;
     margin: 0;
     margin-bottom: 10px;
-    padding-top: 60px;
-    text-align: center;
-}
-
-.btn-sobreMi {
+    padding-top: 30px;
+    text-align: center; }
+  .btn-sobreMi {
     width: 230px;
     padding: 15px;
     margin: 30px auto;
     background-color: white;
     text-align: center;
     color: black;
-    cursor: pointer;
-}
-
-.btn-sobreMi:hover {
+    cursor: pointer; }
+  .btn-sobreMi:hover {
     transition: 0.5s;
     transform: scale(1.1);
-    background-color: gray;
-}
-
-.metanoia-cont {
+    background-color: gray; }
+  .metanoia-cont {
     background-color: black;
     border-radius: 35px;
     color: white;
+    position: relative;
     margin: 40px auto;
     padding: 0px 30px 10px 30px;
-    width: 350px;
-    line-height: 40px;
-    text-align: center;
-}
-
-.metanoia-cont img {
+    width: 80%;
+    text-align: center; }
+  .metanoia-cont img {
     filter: blur(2px);
     width: 100px;
     position: absolute;
-    transform: translate(-40%, -55%);
-    transform-origin: center;
-    animation: zoominout 2s infinite;
-}
-
-@keyframes zoominout {
-
-    0% {
-        transform: scale(1) translate(-40%, -55%);
-    }
-
-    50% {
-        transform: scale(1.02) translate(-40%, -55%);
-    }
-
-    100% {
-        transform: scale(1) translate(-40%, -55%);
-    }
-}
-
-.metanoia-cont h2 {
+    transform: translate(-40%, -60%); }
+  .metanoia-cont h2 {
     padding: 0;
     margin: 0;
     position: absolute;
-    transform: translate(27%, -40%);
-    font-size: 40px;
-    text-shadow: 0px 0px 5px black;
-}
+    transform: translate(50%, -40%);
+    font-size: 30px; }
+  .metanoia-cont p {
+    padding-top: 30px;
+    line-height: 30px;
+    font-size: 19px; }
+  .metanoia-cont span {
+    color: #46a1cc; }
+  /* SOBRE MI FINAL */
+  /* BANNER INICIO */
+  .banner-home {
+    background-image: url(../img/overlaySentidoDeVida.png);
+    width: 425px;
+    height: 300px;
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Hammersmith One", sans-serif; }
+  .banner-home #title {
+    content-visibility: hidden; }
+  .banner-home h2 {
+    color: white;
+    font-size: 25px;
+    -webkit-text-stroke: 0px; }
+  .banner-home a {
+    text-decoration: none;
+    color: black;
+    order: 1; }
+  .btn-sesion {
+    margin: 0px auto;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+    background-color: #b80000;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 16px; }
+  .btn-sesion:hover {
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    transform: scale(1.1); }
+  /* BANNER FINAL */
+  /* CONTENIDO CON POSTS INICIO */
+  .content {
+    display: inline-flex;
+    flex-direction: column;
+    height: auto; }
+  .content__titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    padding: 0;
+    order: 1;
+    /* padding: 60px 20px 0px 20px */ }
+  .post {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center; }
+  .post img {
+    border: 2px solid black;
+    width: 70%; }
+  .post1 {
+    order: 1; }
+  .post2 {
+    order: 1; }
+  .instagram {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    font-size: 36px;
+    content-visibility: hidden; }
+  .coachpubli {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5px;
+    font-size: 30px; }
+  .coachpubli h2 {
+    font-size: 35px;
+    text-align: center;
+    width: 375px; }
+  .coachpubli p {
+    padding: 0;
+    text-align: center;
+    font-size: 20px; }
+  .coachpubli a {
+    text-decoration: none; }
+  #btn-publis {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 20px auto 10px auto;
+    font-size: 18px;
+    width: 240px;
+    cursor: pointer; }
+  #btn-publis:hover {
+    transition: 0.5s;
+    background-color: #ffe24f;
+    color: black;
+    transform: scale(1.1); }
+  /* CONTENIDO CON POST FINAL */
+  /* PAG - CLASE GENERAL (usan varios html) INICIO */
+  .pag {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 1650px;
+    font-size: 20px; }
+  .pag h2 {
+    padding-top: 030px;
+    font-size: 60px;
+    color: white;
+    text-align: center; }
+  .pag a {
+    text-decoration: none; }
+  /* PAG - CLASE GENERAL FINAL */
+  /* DISCIPLINAS INICIO */
+  .coachings img {
+    width: 90px; }
+  .coachings {
+    display: inline-flex;
+    flex-direction: column;
+    height: auto; }
+  .coach {
+    width: fit-content;
+    justify-content: space-evenly;
+    padding: 0 50px;
+    margin: 20px 0px; }
+  .coach-ontologico {
+    margin-bottom: 40px; }
+  .btn-disc {
+    color: black;
+    background-color: white;
+    width: 240px;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    cursor: pointer; }
+  .btn-disc:hover {
+    transition: 0.5s;
+    background-color: #ffe24f;
+    color: black;
+    transform: scale(1.09); }
+  /* DISCIPLINAS FINAL*/
+  /* FOOTER INCIO */
+  footer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #484848;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+  footer .logo {
+    flex-direction: column;
+    padding: 0;
+    margin-left: 10px;
+    color: white; }
+  footer .logo:hover {
+    color: #46a1cc;
+    transition: 0.3s;
+    transform: scale(1.01); }
+  footer img {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    height: auto; }
+  footer .logo h2 {
+    margin-left: 20px;
+    width: 90px;
+    font-size: 10px; }
+  footer .secciones {
+    content-visibility: hidden; }
+  footer .redes {
+    display: inline-flex;
+    padding: 0px;
+    margin: 0;
+    margin-right: 20px;
+    align-items: center;
+    color: white; }
+  footer .redes i {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 5px; }
+  footer .redes p {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 10px;
+    width: 100px;
+    height: auto; }
+  footer .redes i:hover {
+    color: #21e9fb;
+    transform: scale(1.05);
+    transition: 0.3s; }
+  /* FOOTER FINAL */ }
 
-.metanoia-cont p {
-    padding-top: 40px;
+@media (max-width: 425px) and (max-width: 375px) {
+  main {
+    width: 375px; }
+  header {
+    width: 375px; }
+  header .links {
+    display: inline-flex;
+    text-decoration: none;
+    content-visibility: visible;
+    margin: 0;
+    padding: 0; }
+  header .links li {
+    list-style: none; }
+  header ul.links li a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px; }
+  header ul.links li a:hover {
+    transition: 0.5s;
+    font-size: 22px;
+    color: #e44a08; }
+  .banner-home {
+    width: 100%; }
+  .content {
+    width: 100%;
+    height: auto; }
+  /* PLANES INICIO */
+  .nombre-plan {
+    width: 90%;
+    transform: translate(-0.7%, -4%); }
+  .nombre-plan h2 {
+    margin-top: 15px; }
+  .desc-plan {
+    padding: 120px 10px 0px 10px; }
+  .desc-plan h3 {
     font-size: 30px;
-}
-
-.metanoia-cont span {
-    color: #46A1CC;
-}
-
-/* SOBRE MI FINAL */
-
-/* ADAPTACION A LAPTOP */
-
-@media (max-width: 1024px) {
-    header .links {
-        margin: 0 130px;
-    }
-
-    /* CONTACTO INICIO */
-
-    .left {
-        width: 40%;
-        height: auto;
-    }
-
-    .right {
-        display: flex;
-        width: 60%;
-        height: auto;
-        flex-direction: column;
-        margin-top: 5px;
-    }
-
-    .contacto {
-        display: flex;
-        width: 100%;
-        height: auto;
-        background-color: white;
-        color: black;
-    }
-
-    .contacto .right .titulo {
-        color: black;
-        width: 100%;
-        height: auto;
-        padding: 0;
-        text-align: center;
-    }
-
-    .left img {
-        width: 100%;
-        height: auto;
-        padding-right: 50px;
-    }
-
-    .datos {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .misDatos {
-        padding: 0;
-    }
-
-    .misDatos p {
-        padding-top: 0px;
-    }
-
-    .misDatos h3 {
-        font-size: 22px;
-        padding: 20px 100px 0px 0px;
-    }
-
-    .tusDatos {
-        margin: 0;
-        padding: 10px;
-        width: 50%;
-    }
-
-    .tusDatos form {
-        background-color: rgb(132, 132, 132);
-        padding: 15px;
-        margin-top: 15px;
-    }
-
-    .tusDatos h2 {
-        padding: 5px;
-        width: 100%;
-        font-size: 20px;
-        text-align: center;
-        color: black;
-    }
-
-    .tusDatos h3 {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .tusDatos label {
-        font-size: 15px;
-    }
-
-    .tusDatos input {
-        padding: 0;
-        margin: 0;
-    }
-
-    .casilla {
-        font-size: 15px;
-        width: 100%;
-    }
-
-    #boton {
-        background-color: #00367d;
-        color: white;
-        border: 1px solid black;
-        font-size: 12px;
-        padding: 5px 10px;
-        margin: 0;
-        margin-top: 15px;
-        margin-left: 100px;
-        text-align: center;
-        cursor: pointer;
-    }
-
-    #boton:hover {
-        background-color: #244970;
-        transform: scale(1.03);
-        transition: 0.5s;
-    }
-
-    /* CONTACTO FINAL */
-
-    /* PLANES INICIO */
-
-    .contenedor__planes {
-        margin-top: 40px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .nombre-plan {
-        width: 80%;
-        transform: translate(-0.7%, -4%);
-    }
-
-    .nombre-plan h2 {
-        margin-top: 15px;
-    }
-
-    .desc-plan {
-        padding: 120px 10px 0px 10px;
-    }
-
-    .desc-plan h3 {
-        font-size: 40px;
-        text-shadow: 0px 0px 1px black;
-    }
-
-    .plan {
-        width: 80%;
-        height: 400px;
-        margin-bottom: 80px;
-        background: linear-gradient(to bottom, #00367d, #325e8c 90%);
-    }
-
-    .plan h2 {
-        padding: 20px;
-        font-size: 42px;
-    }
-
-    .plan1 .a-tan-solo,
-    .plan2 .a-tan-solo {
-        margin-top: 0px;
-    }
-
-    .plan3 .a-tan-solo {
-        margin-top: 0px;
-    }
-
-    .plan1 img {
-        width: 160px;
-        position: absolute;
-        transform: translate(197%, -60%);
-    }
-
-    .plan2 img {
-        width: 100px;
-        transform: translate(350%, -60%);
-    }
-
-    .plan3 img {
-        width: 120px;
-        transform: translate(285%, -60%);
-    }
-
-    .plan3 #mariposaPlanes {
-        width: 75px;
-        transform: translate(485%, -60%);
-    }
-
-    .planes p {
-        padding: 5px 0px;
-        margin: 0;
-        font-size: 25px;
-        text-align: center;
-        text-shadow: 0px 0px 1px black;
-    }
-
-    /* PLANES FINAL */
-
-    /* SOBRE MI INICIO */
-
-    .sobreMi {
-        width: 100%;
-        height: auto;
-        background-color: #545454;
-        color: black;
-        display: inline-flex;
-        flex-direction: column;
-    }
-
-    .sec {
-        width: 100%;
-        text-align: center;
-    }
-
-    .sec1 {
-        display: inline-flex;
-        flex-direction: row;
-        margin-bottom: 60px;
-    }
-
-    .sec1 h4 {
-        text-align: center;
-        font-size: 30px;
-        line-height: 30px;
-        padding: 0 20px;
-        color: rgb(226, 226, 226);
-        text-shadow: 0px 0px 5px black;
-    }
-
-    .secTextos {
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        margin: 40px auto;
-    }
-
-    .sec1 img {
-        width: 350px;
-        margin: 0;
-        padding: 0;
-        margin-left: 60px;
-        margin-top: 60px;
-    }
-
-    .sec1 h2 {
-        font-size: 65px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .sec2 {
-        background-color: black;
-        color: white;
-        text-align: center;
-    }
-
-    .sec2 h2 {
-        margin: 15px auto;
-        text-align: center;
-    }
-
-    .sec2 p {
-        margin: 30px auto;
-        line-height: 45px;
-        font-size: 36px;
-    }
-
-    .sec3 {
-        margin-top: 5px;
-    }
-
-    .sec3 h3 {
-        font-size: 38px;
-        color: white;
-        margin: 0;
-        padding-bottom: 30px;
-    }
-
-    .contactame p {
-        padding: 0;
-        margin: 0;
-        margin-bottom: 10px;
-        padding-top: 30px;
-        text-align: center;
-    }
-
-    .btn-sobreMi {
-        width: 230px;
-        padding: 15px;
-        margin: 30px auto;
-        background-color: white;
-        text-align: center;
-        color: black;
-        cursor: pointer;
-    }
-
-    .btn-sobreMi:hover {
-        transition: 0.5s;
-        transform: scale(1.1);
-        background-color: gray;
-    }
-
-    .metanoia-cont {
-        background-color: black;
-        border-radius: 35px;
-        color: white;
-        position: relative;
-        margin: 40px auto;
-        padding: 0px 30px 10px 30px;
-        width: 600px;
-        text-align: center;
-    }
-
-    .metanoia-cont img {
-        filter: blur(2px);
-        width: 100px;
-        position: absolute;
-        transform: translate(-40%, -60%);
-    }
-
-    .metanoia-cont h2 {
-        padding: 0;
-        margin: 0;
-        position: absolute;
-        transform: translate(88%, -40%);
-        font-size: 40px;
-    }
-
-    .metanoia-cont p {
-        padding-top: 30px;
-        font-size: 30px;
-    }
-
-    .metanoia-cont span {
-        color: #46a1cc;
-    }
-
-    /* SOBRE MI FINAL */
-
-    /* PAG - CLASE GENERAL (usan varios html) INICIO */
-
-    .pag {
-        background-color: black;
-        color: white;
-        width: 100%;
-        height: 850px;
-        font-size: 20px;
-    }
-
-    .pag h2 {
-        padding-top: 030px;
-        font-size: 60px;
-        color: white;
-        text-align: center;
-    }
-
-    .pag a {
-        text-decoration: none;
-    }
-
-    /* PAG - CLASE GENERAL FINAL */
-
-    /* DISCIPLINAS INICIO */
-
-    .coachings img {
-        width: 90px;
-    }
-
-    .coachings {
-        display: inline-flex;
-    }
-
-    .coach {
-        width: fit-content;
-        justify-content: space-evenly;
-        padding: 0 50px;
-        margin: 20px 0px 70px 0;
-    }
-
-    .btn-disc {
-        color: black;
-        background-color: white;
-        width: 240px;
-        font-size: 35px;
-        text-align: center;
-        padding: 10px;
-        margin: 0px auto;
-        cursor: pointer;
-    }
-
-    .btn-disc:hover {
-        transition: 0.5s;
-        background-color: rgb(255, 226, 79);
-        color: black;
-        transform: scale(1.09);
-    }
-
-    footer {
-        height: 140px;
-        align-items: end;
-    }
-
-    footer img {
-        width: 80px;
-        margin-left: 40px;
-    }
-
-    footer h2 {
-        font-size: 20px;
-    }
-
-    footer .secciones {
-        line-height: 25px;
-    }
-
-    footer .redes {
-        font-size: 13px;
-    }
-
-    footer .redes i {
-        font-size: 35px;
-    }
-
-    /* DISCIPLINAS FINAL */
-
-    /* CONTENIDO CON POSTS INICIO */
-
-    .content {
-        display: inline-flex;
-        flex-direction: column;
-        height: auto;
-    }
-
-    .content__titulo {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 26px;
-        text-align: center;
-        padding: 0;
-        order: 1;
-        /* padding: 60px 20px 0px 20px; */
-    }
-
-    .post {
-        display: inline-flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .post img {
-        border: 2px solid black;
-        width: 70%;
-    }
-
-    .post1 {
-        order: 1;
-    }
-
-    .post2 {
-        order: 1;
-    }
-
-    .instagram {
-        display: inline-flex;
-        flex-direction: column-reverse;
-        font-size: 36px;
-        content-visibility: hidden;
-    }
-
-    .coachpubli {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-right: 5px;
-        font-size: 30px;
-    }
-
-    .coachpubli h2 {
-        font-size: 50px;
-        text-align: center;
-        margin-bottom: 30px;
-        width: 100%;
-    }
-
-    .coachpubli p {
-        padding: 0;
-        margin: 0 50px;
-        text-align: center;
-        font-size: 30px;
-    }
-
-    .coachpubli a {
-        text-decoration: none;
-    }
-
-    #btn-publis {
-        background-color: black;
-        color: white;
-        text-align: center;
-        margin: 20px auto 10px auto;
-        font-size: 18px;
-        width: 240px;
-        cursor: pointer;
-    }
-
-    #btn-publis:hover {
-        transition: 0.5s;
-        background-color: rgb(255, 226, 79);
-        color: black;
-        transform: scale(1.1);
-    }
-
-    /* CONTENIDO CON POST FINAL */
-}
-
-/* ADAPTACION A TABLET */
-
-@media (max-width: 768px) {
-
-    /* CONTACTO INICIO */
-
-    .left {
-        width: 100%;
-        height: auto;
-    }
-
-    .right {
-        display: flex;
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-        margin-top: 5px;
-    }
-
-    .contacto {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-        height: auto;
-        background-color: white;
-        color: black;
-    }
-
-    .contacto .right .titulo {
-        color: black;
-        width: 100%;
-        height: auto;
-        padding: 0;
-        text-align: center;
-    }
-
-    .left img {
-        width: 50%;
-        height: auto;
-        margin: 10px auto 30px calc(30%);
-        padding: 0;
-        border: 2px solid black;
-    }
-
-    .datos {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .misDatos {
-        padding: 0px 0px 0px 60px;
-    }
-
-    .misDatos p {
-        padding-top: 0px;
-    }
-
-    .misDatos h3 {
-        font-size: 22px;
-        padding: 20px 100px 0px 0px;
-    }
-
-    .tusDatos {
-        margin: 0;
-        padding: 10px;
-        width: 50%;
-    }
-
-    .tusDatos form {
-        background-color: rgb(132, 132, 132);
-        padding: 15px;
-        margin-top: 15px;
-    }
-
-    .tusDatos h2 {
-        padding: 5px;
-        width: 100%;
-        font-size: 20px;
-        text-align: center;
-        color: black;
-    }
-
-    .tusDatos h3 {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .tusDatos label {
-        font-size: 15px;
-    }
-
-    .tusDatos input {
-        padding: 0;
-        margin: 0;
-    }
-
-    .casilla {
-        font-size: 15px;
-        width: 100%;
-    }
-
-    #boton {
-        background-color: #00367d;
-        color: white;
-        border: 1px solid black;
-        font-size: 12px;
-        padding: 5px 10px;
-        margin: 0;
-        margin-top: 15px;
-        margin-left: 100px;
-        text-align: center;
-        cursor: pointer;
-    }
-
-    #boton:hover {
-        background-color: #244970;
-        transform: scale(1.03);
-        transition: 0.5s;
-    }
-
-    /* CONTACTO FINAL */
-
-    /* BANNER INICIO */
-    .nav-item {
-        margin: 0 5px;
-    }
-
-    .banner-home {
-        height: 500px;
-    }
-
-    #title {
-        content-visibility: hidden;
-    }
-
-    .btn-sesion {
-        font-size: 15px;
-        padding: 10px;
-        width: 200px;
-        margin: 0 auto;
-    }
-
-    /* BANNER FINAL */
-
-    /* PLANES INICIO */
-
-    .contenedor__planes {
-        margin-top: 40px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .nombre-plan {
-        width: 90%;
-        transform: translate(-0.7%, -4%);
-    }
-
-    .nombre-plan h2 {
-        margin-top: 15px;
-    }
-
-    .desc-plan {
-        padding: 120px 10px 0px 10px;
-    }
-
-    .desc-plan h3 {
-        font-size: 37px;
-        text-shadow: 0px 0px 1px black;
-    }
-
-    .plan {
-        width: 90%;
-        height: 400px;
-        margin-bottom: 80px;
-        background: linear-gradient(to bottom, #00367d, #325e8c 90%);
-    }
-
-    .plan h2 {
-        padding: 20px;
-        font-size: 42px;
-    }
-
-    .plan1 .a-tan-solo,
-    .plan2 .a-tan-solo {
-        margin-top: 0px;
-    }
-
-    .plan3 .a-tan-solo {
-        margin-top: 0px;
-    }
-
-    .plan1 img {
-        width: 160px;
-        transform: translate(170%, -60%);
-    }
-
-    .plan2 img {
-        width: 100px;
-        transform: translate(300%, -60%);
-    }
-
-    .plan3 img {
-        width: 120px;
-        transform: translate(235%, -60%);
-    }
-
-    .plan3 #mariposaPlanes {
-        width: 75px;
-        transform: translate(405%, -60%);
-    }
-
-    .planes p {
-        padding: 5px 0px;
-        margin: 0;
-        font-size: 25px;
-        text-align: center;
-        text-shadow: 0px 0px 1px black;
-    }
-
-    /* PLANES FINAL */
-
-    /* SOBRE MI INICIO */
-
-    .sec1 img {
-        width: 280px;
-        margin: 0;
-        padding: 0;
-        margin-left: 60px;
-        margin-top: 60px;
-    }
-
-    .sec1 h2 {
-        font-size: 50px;
-        margin: 10px auto;
-        padding: 0;
-    }
-
-    .sec1 h4 {
-        text-align: center;
-        font-size: 25px;
-        line-height: 30px;
-        padding: 0 30px;
-        color: rgb(226, 226, 226);
-        text-shadow: 0px 0px 5px black;
-    }
-
-    .sec2 {
-        background-color: black;
-        color: white;
-        text-align: center;
-    }
-
-    .sec2 h2 {
-        margin: 0px auto;
-        text-align: center;
-    }
-
-    .sec2 p {
-        margin: 20px 25px;
-        line-height: 40px;
-        font-size: 30px;
-    }
-
-    .sec3 h2 {
-        font-size: 45px;
-    }
-
-    .sec3 h3 {
-        font-size: 30px;
-        color: white;
-        margin: 0;
-    }
-
-    .metanoia-cont h2 {
-        transform: translate(75%, -55%);
-    }
-
-    /* SOBRE MI FINAL */
-
-    /* PAG - CLASE GENERAL (usan varios html) INICIO */
-
-    .pag {
-        background-color: black;
-        color: white;
-        width: 100%;
-        height: 1250px;
-        font-size: 20px;
-    }
-
-    .pag h2 {
-        padding-top: 030px;
-        font-size: 60px;
-        color: white;
-        text-align: center;
-    }
-
-    .pag a {
-        text-decoration: none;
-    }
-
-    /* PAG - CLASE GENERAL FINAL */
-
-    /* DISCIPLINAS INICIO */
-    .coachings img {
-        width: 90px;
-    }
-
-    .coachings {
-        display: inline-flex;
-        flex-direction: column;
-        height: auto;
-    }
-
-    .coach {
-        width: fit-content;
-        justify-content: space-evenly;
-        padding: 0 50px;
-        margin: 20px 0px;
-    }
-
-    .coach-ontologico {
-        margin-bottom: 40px;
-    }
-
-    .btn-disc {
-        color: black;
-        background-color: white;
-        width: 240px;
-        font-size: 35px;
-        text-align: center;
-        padding: 10px;
-        margin: 50px auto;
-        cursor: pointer;
-    }
-
-    .btn-disc:hover {
-        transition: 0.5s;
-        background-color: rgb(255, 226, 79);
-        color: black;
-        transform: scale(1.09);
-    }
-
-    /* DISCIPLINAS FINAL*/
-    /* FOOTER INICIO */
-    footer {
-        height: 140px;
-        align-items: end;
-    }
-
-    footer img {
-        width: 80px;
-        margin-left: 40px;
-    }
-
-    footer h2 {
-        font-size: 20px;
-    }
-
-    footer .secciones {
-        line-height: 25px;
-    }
-
-    footer .redes {
-        font-size: 13px;
-        padding: 0;
-    }
-
-    footer .redes i {
-        font-size: 35px;
-    }
-
-    /* FOOTER FINAL */
-    /* DISCIPLINAS FINAL */
-
-    /* CONTENIDO CON POST INICIO */
-    .content {
-        display: inline-flex;
-        flex-direction: column;
-        height: auto;
-    }
-
-    .content__titulo {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 36px;
-        text-align: center;
-        padding: 0;
-        order: 1;
-    }
-
-    .post {
-        display: inline-flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .post img {
-        border: 2px solid black;
-        width: 70%;
-    }
-
-    .post1 {
-        order: 1;
-    }
-
-    .post2 {
-        order: 1;
-    }
-
-    .instagram {
-        display: inline-flex;
-        flex-direction: column-reverse;
-        font-size: 36px;
-        content-visibility: hidden;
-    }
-
-    .coachpubli {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-right: 5px;
-        font-size: 30px;
-    }
-
-    .coachpubli h2 {
-        font-size: 40px;
-        text-align: center;
-        width: 100%;
-    }
-
-    .coachpubli p {
-        width: 80%;
-        padding: 20px;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 24px;
-    }
-
-    .coachpubli a {
-        text-decoration: none;
-    }
-
-    #btn-publis {
-        background-color: black;
-        color: white;
-        text-align: center;
-        margin: 0px auto 10px auto;
-        font-size: 18px;
-        width: 240px;
-        cursor: pointer;
-    }
-
-    #btn-publis:hover {
-        transition: 0.5s;
-        background-color: rgb(255, 226, 79);
-        color: black;
-        transform: scale(1.1);
-    }
-
-    /* CONTENIDO CON POST FINAL */
-}
-
-/* ADAPTACION A MOBILE */
-@media (max-width: 660px) {
-    /* FOOTER INCIO */
-
-    footer {
-        display: inline-flex;
-        width: 100%;
-        height: 70px;
-        background-color: rgb(72, 72, 72);
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    }
-
-    footer .logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        padding: 0;
-        margin-left: 10px;
-        color: white;
-    }
-
-    footer img {
-        width: 40px;
-        height: auto;
-        margin: 0 10px;
-    }
-
-    footer .logo h2 {
-        font-size: 30px;
-        margin: 0 10px;
-    }
-
-    footer .secciones {
-        content-visibility: hidden;
-    }
-
-    footer .redes {
-        display: inline-flex;
-        padding: 10px;
-        align-items: center;
-        color: white;
-    }
-
-    footer .redes i {
-        font-size: 20px;
-        text-align: center;
-        color: white;
-        padding: 5px;
-    }
-
-    footer .redes p {
-        margin-top: 20px;
-        margin-left: 60px;
-        font-size: 10px;
-        width: 100px;
-        height: auto;
-    }
-
-    footer .redes i:hover {
-        color: rgb(33, 233, 251);
-        transform: scale(1.05);
-        transition: 0.3s;
-    }
-
-    /* FOOTER FINAL */
-}
-
-@media (max-width: 425px) {
-
-    /* HEADER INICIO */
-    main {
-        width: 425px;
-    }
-
-    .mariposa {
-        width: 40px;
-        height: auto;
-        margin-top: 10px;
-        margin-left: 15px;
-    }
-
-    header i {
-        content-visibility: visible;
-        font-size: 10px;
-    }
-
-    header .links {
-        display: inline-flex;
-        text-decoration: none;
-        content-visibility: visible;
-        margin: 0;
-        padding: 0;
-    }
-
-    header .links li {
-        list-style: none;
-    }
-
-    header ul.links li a {
-        padding-left: 10px;
-        text-decoration: none;
-        color: black;
-        font-size: 17px;
-    }
-
-    header ul.links li a:hover {
-        transition: 0.5s;
-        font-size: 22px;
-        color: rgb(228, 74, 8);
-    }
-
-    /* HEADER FINAL */
-
-    /* CONTACTO INICIO */
-
-    .left {
-        width: 100%;
-        height: auto;
-    }
-
-    .right {
-        display: flex;
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-        margin-top: 5px;
-    }
-
-    .contacto {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-        height: auto;
-        background-color: white;
-        color: black;
-    }
-
-    .contacto .right .titulo {
-        color: black;
-        width: 100%;
-        height: auto;
-        padding: 0;
-        text-align: center;
-    }
-
-    .left img {
-        width: 50%;
-        height: auto;
-        margin: 10px auto 30px calc(25%);
-        padding: 0;
-        border: 2px solid black;
-    }
-
-    .datos {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .misDatos {
-        padding: 0;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .misDatos p {
-        padding: 0;
-    }
-
-    .misDatos h3 {
-        font-size: 22px;
-        padding: 0;
-    }
-
-    .tusDatos {
-        margin: 0 auto;
-        padding: 10px;
-        width: 80%;
-    }
-
-    .tusDatos form {
-        background-color: rgb(132, 132, 132);
-        padding: 15px;
-        margin-top: 15px;
-    }
-
-    .tusDatos h2 {
-        padding: 5px;
-        width: 100%;
-        font-size: 20px;
-        text-align: center;
-        color: black;
-    }
-
-    .tusDatos h3 {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .tusDatos label {
-        font-size: 15px;
-    }
-
-    .tusDatos input {
-        padding: 0;
-        margin: 0;
-    }
-
-    .casilla {
-        font-size: 15px;
-        width: 100%;
-    }
-
-    #boton {
-        background-color: #00367d;
-        color: white;
-        border: 1px solid black;
-        font-size: 12px;
-        padding: 5px 10px;
-        margin: 0;
-        margin-top: 25px;
-        margin-left: 120px;
-        text-align: center;
-        cursor: pointer;
-    }
-
-    #boton:hover {
-        background-color: #244970;
-        transform: scale(1.03);
-        transition: 0.5s;
-    }
-
-    /* CONTACTO FINAL */
-
-    /* PLANES INICIO */
-
-    .nombre-plan {
-        width: 90%;
-        transform: translate(-0.7%, -4%);
-    }
-
-    .nombre-plan h2 {
-        margin-top: 15px;
-    }
-
-    .desc-plan {
-        padding: 120px 10px 0px 10px;
-    }
-
-    .desc-plan h3 {
-        font-size: 30px;
-        text-shadow: 0px 0px 1px black;
-    }
-
-    .plan {
-        width: 90%;
-        height: auto;
-        margin-bottom: 60px;
-        background: linear-gradient(to bottom, #00367d, #325e8c 90%);
-    }
-
-    .plan h2 {
-        padding: 15px;
-        font-size: 36px;
-    }
-
-    .plan1 .a-tan-solo,
-    .plan2 .a-tan-solo {
-        margin-top: 0px;
-    }
-
-    .plan3 .a-tan-solo {
-        margin-top: 0px;
-    }
-
-    .plan1 img {
-        width: 130px;
-        transform: translate(90%, -60%);
-    }
-
-    .plan2 img {
-        width: 80px;
-        transform: translate(190%, -60%);
-    }
-
-    .plan3 img {
-        width: 100px;
-        transform: translate(140%, -60%);
-    }
-
-    .plan3 #mariposaPlanes {
-        width: 60px;
-        transform: translate(266%, -60%);
-    }
-
-    .planes p {
-        padding: 5px 0px;
-        margin: 0;
-        font-size: 18px;
-        text-align: center;
-        text-shadow: 0px 0px 1px black;
-    }
-
-    /* PLANES FINAL */
-
-    /* SOBRE MI INICIO */
-
-    .sec1 {
-        display: inline-flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-
-    .sec1 img {
-        width: 250px;
-        margin: 40px auto auto;
-        padding: 0;
-    }
-
-    .sec1 h2 {
-        font-size: 40px;
-        margin: 15px auto;
-        padding: 0;
-    }
-
-    .secTextos {
-        margin: 0;
-    }
-
-    .sec2 h2 {
-        margin: 0px auto;
-        text-align: center;
-        font-size: 35px;
-    }
-
-    .sec2 p {
-        margin: 15px 10px;
-        line-height: 30px;
-        font-size: 25px;
-    }
-
-    .sec3 {
-        margin: 0 5px;
-    }
-
-    .sec3 h3 {
-        font-size: 20px;
-        color: white;
-        margin: 0 auto;
-    }
-
-    .contactame p {
-        padding: 0;
-        margin: 0;
-        margin-bottom: 10px;
-        padding-top: 30px;
-        text-align: center;
-    }
-
-    .btn-sobreMi {
-        width: 230px;
-        padding: 15px;
-        margin: 30px auto;
-        background-color: white;
-        text-align: center;
-        color: black;
-        cursor: pointer;
-    }
-
-    .btn-sobreMi:hover {
-        transition: 0.5s;
-        transform: scale(1.1);
-        background-color: gray;
-    }
-
-    .metanoia-cont {
-        background-color: black;
-        border-radius: 35px;
-        color: white;
-        position: relative;
-        margin: 40px auto;
-        padding: 0px 30px 10px 30px;
-        width: 80%;
-        text-align: center;
-    }
-
-    .metanoia-cont img {
-        filter: blur(2px);
-        width: 100px;
-        position: absolute;
-        transform: translate(-40%, -60%);
-    }
-
-    .metanoia-cont h2 {
-        padding: 0;
-        margin: 0;
-        position: absolute;
-        transform: translate(50%, -40%);
-        font-size: 30px;
-    }
-
-    .metanoia-cont p {
-        padding-top: 30px;
-        line-height: 30px;
-        font-size: 19px;
-    }
-
-    .metanoia-cont span {
-        color: #46a1cc;
-    }
-
-    /* SOBRE MI FINAL */
-
-    /* BANNER INICIO */
-
-    .banner-home {
-        background-image: url(../img/overlaySentidoDeVida.png);
-        width: 425px;
-        height: 300px;
-        background-color: aqua;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        font-family: "Hammersmith One", sans-serif;
-    }
-
-    .banner-home #title {
-        content-visibility: hidden;
-    }
-
-    .banner-home h2 {
-        color: white;
-        font-size: 25px;
-        -webkit-text-stroke: 0px;
-    }
-
-    .banner-home a {
-        text-decoration: none;
-        color: black;
-        order: 1;
-    }
-
-    .btn-sesion {
-        margin: 0px auto;
-        padding: 10px;
-        width: 180px;
-        text-align: center;
-        background-color: rgb(184, 0, 0);
-        cursor: pointer;
-        border-radius: 10px;
-        color: white;
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .btn-sesion:hover {
-        transition: 0.5s;
-        background-color: black;
-        color: white;
-        transform: scale(1.1);
-    }
-
-    /* BANNER FINAL */
-    /* CONTENIDO CON POSTS INICIO */
-
-    .content {
-        display: inline-flex;
-        flex-direction: column;
-        height: auto;
-    }
-
-    .content__titulo {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 26px;
-        text-align: center;
-        padding: 0;
-        order: 1;
-        /* padding: 60px 20px 0px 20px; */
-    }
-
-    .post {
-        display: inline-flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .post img {
-        border: 2px solid black;
-        width: 70%;
-    }
-
-    .post1 {
-        order: 1;
-    }
-
-    .post2 {
-        order: 1;
-    }
-
-    .instagram {
-        display: inline-flex;
-        flex-direction: column-reverse;
-        font-size: 36px;
-        content-visibility: hidden;
-    }
-
-    .coachpubli {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-right: 5px;
-        font-size: 30px;
-    }
-
-    .coachpubli h2 {
-        font-size: 35px;
-        text-align: center;
-        width: 375px;
-    }
-
-    .coachpubli p {
-        padding: 0;
-        text-align: center;
-        font-size: 20px;
-    }
-
-    .coachpubli a {
-        text-decoration: none;
-    }
-
-    #btn-publis {
-        background-color: black;
-        color: white;
-        text-align: center;
-        margin: 20px auto 10px auto;
-        font-size: 18px;
-        width: 240px;
-        cursor: pointer;
-    }
-
-    #btn-publis:hover {
-        transition: 0.5s;
-        background-color: rgb(255, 226, 79);
-        color: black;
-        transform: scale(1.1);
-    }
-
-    /* CONTENIDO CON POST FINAL */
-    /* PAG - CLASE GENERAL (usan varios html) INICIO */
-
-    .pag {
-        background-color: black;
-        color: white;
-        width: 100%;
-        height: 1650px;
-        font-size: 20px;
-    }
-
-    .pag h2 {
-        padding-top: 030px;
-        font-size: 60px;
-        color: white;
-        text-align: center;
-    }
-
-    .pag a {
-        text-decoration: none;
-    }
-
-    /* PAG - CLASE GENERAL FINAL */
-
-    /* DISCIPLINAS INICIO */
-    .coachings img {
-        width: 90px;
-    }
-
-    .coachings {
-        display: inline-flex;
-        flex-direction: column;
-        height: auto;
-    }
-
-    .coach {
-        width: fit-content;
-        justify-content: space-evenly;
-        padding: 0 50px;
-        margin: 20px 0px;
-    }
-
-    .coach-ontologico {
-        margin-bottom: 40px;
-    }
-
-    .btn-disc {
-        color: black;
-        background-color: white;
-        width: 240px;
-        font-size: 35px;
-        text-align: center;
-        padding: 10px;
-        margin: 20px auto;
-        cursor: pointer;
-    }
-
-    .btn-disc:hover {
-        transition: 0.5s;
-        background-color: rgb(255, 226, 79);
-        color: black;
-        transform: scale(1.09);
-    }
-
-    /* DISCIPLINAS FINAL*/
-
-    /* FOOTER INCIO */
-
-    footer {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 70px;
-        background-color: rgb(72, 72, 72);
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    }
-
-    footer .logo {
-        flex-direction: column;
-        padding: 0;
-        margin-left: 10px;
-        color: white;
-    }
-
-    footer .logo:hover {
-        color: #46a1cc;
-        transition: 0.3s;
-        transform: scale(1.01);
-    }
-
-    footer img {
-        width: 40px;
-        margin: 0;
-        padding: 0;
-        height: auto;
-    }
-
-    footer .logo h2 {
-        margin-left: 20px;
-        width: 90px;
-        font-size: 10px;
-    }
-
-    footer .secciones {
-        content-visibility: hidden;
-    }
-
-    footer .redes {
-        display: inline-flex;
-        padding: 0px;
-        margin: 0;
-        margin-right: 20px;
-        align-items: center;
-        color: white;
-    }
-
-    footer .redes i {
-        font-size: 20px;
-        text-align: center;
-        color: white;
-        padding: 5px;
-    }
-
-    footer .redes p {
-        margin-top: 20px;
-        margin-left: 60px;
-        font-size: 10px;
-        width: 100px;
-        height: auto;
-    }
-
-    footer .redes i:hover {
-        color: rgb(33, 233, 251);
-        transform: scale(1.05);
-        transition: 0.3s;
-    }
-
-    /* FOOTER FINAL */
-
-    @media (max-width: 375px) {
-        main {
-            width: 375px;
-        }
-
-        header {
-            width: 375px;
-        }
-
-        header .links {
-            display: inline-flex;
-            text-decoration: none;
-            content-visibility: visible;
-            margin: 0;
-            padding: 0;
-        }
-
-        header .links li {
-            list-style: none;
-        }
-
-        header ul.links li a {
-            padding-left: 10px;
-            text-decoration: none;
-            color: black;
-            font-size: 14px;
-        }
-
-        header ul.links li a:hover {
-            transition: 0.5s;
-            font-size: 22px;
-            color: rgb(228, 74, 8);
-        }
-
-        .banner-home {
-            width: 100%;
-        }
-
-        .content {
-            width: 100%;
-            height: auto;
-        }
-
-        /* PLANES INICIO */
-
-        .nombre-plan {
-            width: 90%;
-            transform: translate(-0.7%, -4%);
-        }
-
-        .nombre-plan h2 {
-            margin-top: 15px;
-        }
-
-        .desc-plan {
-            padding: 120px 10px 0px 10px;
-        }
-
-        .desc-plan h3 {
-            font-size: 30px;
-            text-shadow: 0px 0px 1px black;
-        }
-
-        .plan {
-            width: 90%;
-            height: auto;
-            margin-bottom: 60px;
-            background: linear-gradient(to bottom, #00367d, #325e8c 90%);
-        }
-
-        .plan h2 {
-            padding: 15px;
-            font-size: 36px;
-        }
-
-        .plan1 .a-tan-solo,
-        .plan2 .a-tan-solo {
-            margin-top: 0px;
-        }
-
-        .plan3 .a-tan-solo {
-            margin-top: 0px;
-        }
-
-        .plan1 img {
-            width: 130px;
-            transform: translate(80%, -60%);
-            /* transform: translate(75%, -60%); */
-        }
-
-        .plan2 img {
-            width: 80px;
-            transform: translate(160%, -60%);
-        }
-
-        .plan3 img {
-            width: 100px;
-            transform: translate(120%, -60%);
-        }
-
-        .plan3 #mariposaPlanes {
-            width: 60px;
-            transform: translate(233%, -60%);
-        }
-
-        .planes p {
-            padding: 5px 0px;
-            margin: 0;
-            font-size: 15px;
-            text-align: center;
-            text-shadow: 0px 0px 0.1px black;
-        }
-
-        /* PLANES FINAL */
-
-        /* SOBRE MI INICIO*/
-
-        .sec1 h4 {
-            font-size: 20px;
-        }
-
-        .sec3 h3 {
-            font-size: 18px;
-            padding-bottom: 10px;
-        }
-
-        .metanoia-cont {
-            margin-bottom: 15px;
-        }
-
-        .metanoia-cont img {
-            width: 80px;
-        }
-
-        .metanoia-cont h2 {
-            transform: translate(35%, -40%);
-        }
-
-        /* SOBRE MI FINAL */
-
-        /* FOOTER INICIO */
-
-        footer {
-            display: inline-flex;
-            width: 100%;
-            height: 70px;
-            background-color: rgb(72, 72, 72);
-            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        }
-
-        footer .logo h2 {
-            width: 90px;
-            font-size: 10px;
-        }
-
-        footer .secciones {
-            content-visibility: hidden;
-        }
-
-        footer .redes {
-            display: inline-flex;
-            padding: 10px;
-            align-items: center;
-            color: white;
-        }
-
-        footer .redes i {
-            font-size: 20px;
-            text-align: center;
-            color: white;
-            padding: 5px;
-        }
-
-        footer .redes p {
-            margin: 0;
-            margin-left: 30px;
-            padding: 0;
-            font-size: 10px;
-            width: 100px;
-            height: auto;
-        }
-
-        /* FOOTER FINAL */
-
-        /* DISCIPLINAS INICIO */
-        .pag {
-            height: 1150px;
-        }
-
-        .btn-disc {
-            font-size: 20px;
-            padding: 5px;
-            width: 150px;
-        }
-
-        .coach {
-            font-size: 15px;
-            margin: 5px 0px;
-        }
-
-        .coach img {
-            width: 70px;
-        }
-
-        .coach h3 {
-            font-size: 25px;
-        }
-
-        /* DISPLINAS FINAL */
-    }
-
-    @media (max-width: 320px) {
-        /* PLANES INICIO */
-
-        .desc-plan h3 {
-            font-size: 26px;
-            text-shadow: 0px 0px 1px black;
-        }
-
-        .plan1 img {
-            width: 110px;
-            transform: translate(80%, -60%);
-        }
-
-        .plan2 img {
-            width: 80px;
-            transform: translate(125%, -60%);
-        }
-
-        .plan3 img {
-            width: 100px;
-            transform: translate(91%, -60%);
-        }
-
-        .plan3 #mariposaPlanes {
-            width: 60px;
-            transform: translate(184%, -60%);
-        }
-
-        .planes p {
-            padding: 5px 0px;
-            margin: 0;
-            font-size: 15px;
-            text-align: center;
-            text-shadow: 0px 0px 0.1px black;
-        }
-
-        /* PLANES FINAL */
-
-        /* SOBRE MI INICIO*/
-
-        .sec h2 {
-            font-size: 30px;
-            padding: 10px;
-        }
-
-        .sec1 h3 {
-            font-size: 25px;
-            padding: 15px;
-        }
-
-        .sec2 p {
-            font-size: 20px;
-            padding: 5px 10px;
-        }
-
-        .metanoia-cont h2 {
-            transform: translate(12%, -40%);
-        }
-
-        .btn-sobreMi {
-            font-size: 23px;
-            width: 180px;
-        }
-
-        /* SOBRE MI FINAL */
-        .pag {
-            width: 320px;
-            height: 930px;
-            margin: 0;
-            padding: 0;
-        }
-
-        .pag h2 {
-            font-size: 40px;
-        }
-
-        .coach {
-            font-size: 12px;
-        }
-
-        .coach img {
-            width: 50px;
-        }
-
-        .coach h3 {
-            font-size: 20px;
-        }
-
-        .coachpubli h2 {
-            width: 100%;
-            font-size: 30px;
-            align-items: center;
-        }
-
-        .coachpubli a {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            width: 320px;
-        }
-
-        header ul.links li a {
-            font-size: 11px;
-        }
-
-        main {
-            width: 320px;
-        }
-
-        #btn-publis {
-            width: 50%;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .content {
-            width: 320px;
-            height: auto;
-            margin: 0;
-            padding: 0;
-        }
-
-        .banner-home {
-            width: 100%;
-            margin: 0;
-        }
-
-        footer {
-            display: inline-flex;
-            width: 320px;
-            height: 70px;
-            background-color: rgb(72, 72, 72);
-            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        }
-
-        footer .logo h2 {
-            width: 90px;
-            font-size: 10px;
-        }
-
-        footer .secciones {
-            content-visibility: hidden;
-        }
-
-        footer .redes {
-            display: inline-flex;
-            padding: 10px;
-            align-items: center;
-            color: white;
-        }
-
-        footer .redes i {
-            font-size: 20px;
-            text-align: center;
-            color: white;
-            padding: 5px;
-        }
-
-        footer .redes p {
-            margin: 0;
-            margin-left: 30px;
-            padding: 0;
-            font-size: 5px;
-            width: 70px;
-            height: auto;
-        }
-    }
-}
+    text-shadow: 0px 0px 1px black; }
+  .plan {
+    width: 90%;
+    height: auto;
+    margin-bottom: 60px;
+    background: linear-gradient(to bottom, #00367d, #325e8c 90%); }
+  .plan h2 {
+    padding: 15px;
+    font-size: 36px; }
+  .plan1 .a-tan-solo,
+  .plan2 .a-tan-solo {
+    margin-top: 0px; }
+  .plan3 .a-tan-solo {
+    margin-top: 0px; }
+  .plan1 img {
+    width: 130px;
+    transform: translate(80%, -60%);
+    /* transform: translate(75%, -60%) */ }
+  .plan2 img {
+    width: 80px;
+    transform: translate(160%, -60%); }
+  .plan3 img {
+    width: 100px;
+    transform: translate(120%, -60%); }
+  .plan3 #mariposaPlanes {
+    width: 60px;
+    transform: translate(233%, -60%); }
+  .planes p {
+    padding: 5px 0px;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 0px 0px 0.1px black; }
+  /* PLANES FINAL */
+  /* SOBRE MI INICIO*/
+  .sec1 h4 {
+    font-size: 20px; }
+  .sec3 h3 {
+    font-size: 18px;
+    padding-bottom: 10px; }
+  .metanoia-cont {
+    margin-bottom: 15px; }
+  .metanoia-cont img {
+    width: 80px; }
+  .metanoia-cont h2 {
+    transform: translate(35%, -40%); }
+  /* SOBRE MI FINAL */
+  /* FOOTER INICIO */
+  footer {
+    display: inline-flex;
+    width: 100%;
+    height: 70px;
+    background-color: #484848;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+  footer .logo h2 {
+    width: 90px;
+    font-size: 10px; }
+  footer .secciones {
+    content-visibility: hidden; }
+  footer .redes {
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    color: white; }
+  footer .redes i {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 5px; }
+  footer .redes p {
+    margin: 0;
+    margin-left: 30px;
+    padding: 0;
+    font-size: 10px;
+    width: 100px;
+    height: auto; }
+  /* FOOTER FINAL */
+  /* DISCIPLINAS INICIO */
+  .pag {
+    height: 1150px; }
+  .btn-disc {
+    font-size: 20px;
+    padding: 5px;
+    width: 150px; }
+  .coach {
+    font-size: 15px;
+    margin: 5px 0px; }
+  .coach img {
+    width: 70px; }
+  .coach h3 {
+    font-size: 25px; }
+  /* DISPLINAS FINAL */ }
+
+@media (max-width: 425px) and (max-width: 320px) {
+  /* PLANES INICIO */
+  .nombre-plan {
+    width: 90%;
+    transform: translate(-0.7%, -4%); }
+  .desc-plan h3 {
+    font-size: 26px;
+    text-shadow: 0px 0px 1px black; }
+  .plan1 img {
+    width: 110px;
+    transform: translate(80%, -60%); }
+  .plan2 img {
+    width: 80px;
+    transform: translate(125%, -60%); }
+  .plan3 img {
+    width: 100px;
+    transform: translate(91%, -60%); }
+  .plan3 #mariposaPlanes {
+    width: 60px;
+    transform: translate(184%, -60%); }
+  .planes p {
+    padding: 5px 0px;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 0px 0px 0.1px black; }
+  /* PLANES FINAL */
+  /* SOBRE MI INICIO*/
+  .sec h2 {
+    font-size: 30px;
+    padding: 10px; }
+  .sec1 h3 {
+    font-size: 25px;
+    padding: 15px; }
+  .sec2 p {
+    font-size: 20px;
+    padding: 5px 10px; }
+  .metanoia-cont h2 {
+    transform: translate(12%, -40%); }
+  .btn-sobreMi {
+    font-size: 23px;
+    width: 180px; }
+  /* SOBRE MI FINAL */
+  .pag {
+    width: 320px;
+    height: 930px;
+    margin: 0;
+    padding: 0; }
+  .pag h2 {
+    font-size: 40px; }
+  .coach {
+    font-size: 12px; }
+  .coach img {
+    width: 50px; }
+  .coach h3 {
+    font-size: 20px; }
+  .coachpubli h2 {
+    width: 100%;
+    font-size: 30px;
+    align-items: center; }
+  .coachpubli a {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+  header {
+    width: 320px; }
+  header ul.links li a {
+    font-size: 11px; }
+  main {
+    width: 320px; }
+  #btn-publis {
+    width: 50%;
+    padding: 10px;
+    text-align: center; }
+  .content {
+    width: 320px;
+    height: auto;
+    margin: 0;
+    padding: 0; }
+  .banner-home {
+    width: 100%;
+    margin: 0; }
+  footer {
+    display: inline-flex;
+    width: 320px;
+    height: 70px;
+    background-color: #484848;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+  footer .logo h2 {
+    width: 90px;
+    font-size: 10px; }
+  footer .secciones {
+    content-visibility: hidden; }
+  footer .redes {
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    color: white; }
+  footer .redes i {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 5px; }
+  footer .redes p {
+    margin: 0;
+    margin-left: 30px;
+    padding: 0;
+    font-size: 5px;
+    width: 70px;
+    height: auto; } }
