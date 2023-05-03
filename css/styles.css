@@ -24,7 +24,7 @@ header .links li {
 header ul.links li a {
   padding-left: 10px;
   text-decoration: none;
-  color: black;
+  color: #000;
   font-size: 20px; }
 
 header ul.links li a:hover {
@@ -53,7 +53,7 @@ header i {
 .banner-home h2 {
   text-align: center;
   font-size: 60px;
-  color: white;
+  color: #fff;
   -webkit-text-stroke: 3px black; }
 
 #title {
@@ -63,12 +63,23 @@ header i {
 
 .banner-home a {
   text-decoration: none;
-  color: black; }
+  color: #000; }
+
+.btn-bl_wh, .btn-sesion, .btn-disc, .btn-sobreMi {
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px; }
+
+.btn-wh_bl, .btn-sesion:hover {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px; }
 
 .btn-sesion {
-  background-color: white;
-  text-align: center;
-  padding: 20px;
   margin: 0 auto;
   margin-top: 100px;
   width: 290px;
@@ -76,8 +87,6 @@ header i {
 
 .btn-sesion:hover {
   transition: 0.5s;
-  background-color: black;
-  color: white;
   transform: scale(1.1); }
 
 /* BANNER FINAL */
@@ -125,11 +134,11 @@ header i {
   color: #244970;
   font-size: 100px; }
 
-.instagram h4 {
+.instagram h3 {
   cursor: pointer; }
 
 .instagram a:hover,
-.instagramh4:hover {
+.instagramh3:hover {
   color: #00295f;
   transition: 0.3s;
   transform: scale(1.1); }
@@ -153,8 +162,8 @@ header i {
   text-decoration: none; }
 
 #btn-publis {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
   text-align: center;
   margin: 0px auto;
   font-size: 18px;
@@ -165,7 +174,7 @@ header i {
 #btn-publis:hover {
   transition: 0.5s;
   background-color: #ffe24f;
-  color: black;
+  color: #000;
   transform: scale(1.1); }
 
 /* CONTENIDO CON POST FINAL */
@@ -179,7 +188,7 @@ footer {
 
 footer .logo {
   padding-left: 50px;
-  color: white; }
+  color: #fff; }
 
 footer .logo:hover {
   color: #46A1CC;
@@ -200,7 +209,7 @@ footer .secciones {
 
 footer .secciones li a {
   text-decoration: none;
-  color: white; }
+  color: #fff; }
 
 footer .secciones li a:hover {
   color: #21e9fb;
@@ -211,14 +220,14 @@ footer .redes {
   text-align: center;
   padding-top: 30px;
   padding-right: 40px;
-  color: white; }
+  color: #fff; }
 
 footer .redes p {
   width: 230px; }
 
 footer .redes i {
   font-size: 50px;
-  color: white; }
+  color: #fff; }
 
 footer .redes i:hover {
   color: #21e9fb;
@@ -228,8 +237,8 @@ footer .redes i:hover {
 /* FOOTER FINAL */
 /* PAG INICIO */
 .pag {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
   width: 100%;
   height: 750px;
   font-size: 20px; }
@@ -237,7 +246,7 @@ footer .redes i:hover {
 .pag h2 {
   padding-top: 030px;
   font-size: 60px;
-  color: white;
+  color: #fff;
   text-align: center; }
 
 .pag a {
@@ -258,19 +267,15 @@ footer .redes i:hover {
   margin: 70px 0; }
 
 .btn-disc {
-  color: black;
-  background-color: white;
   width: 240px;
   font-size: 35px;
-  text-align: center;
   padding: 10px;
-  margin: 0px auto;
-  cursor: pointer; }
+  margin: 0px auto; }
 
 .btn-disc:hover {
   transition: 0.5s;
   background-color: #ffe24f;
-  color: black;
+  color: #000;
   transform: scale(1.09); }
 
 /* DISCIPLINAS FINAL */
@@ -283,11 +288,11 @@ footer .redes i:hover {
   display: flex;
   width: 100%;
   height: 100vh;
-  background-color: white;
-  color: black; }
+  background-color: #fff;
+  color: #000; }
 
 .contacto .right .titulo {
-  color: black;
+  color: #000;
   width: 100vh;
   height: auto;
   padding: 0;
@@ -328,7 +333,7 @@ footer .redes i:hover {
   width: 100%;
   font-size: 25px;
   text-align: center;
-  color: black; }
+  color: #000; }
 
 .tusDatos h3 {
   margin-top: 20px;
@@ -348,7 +353,7 @@ footer .redes i:hover {
 
 #boton {
   background-color: #00367D;
-  color: white;
+  color: #fff;
   border: 1px solid black;
   font-size: 20px;
   padding: 10px 20px;
@@ -369,15 +374,15 @@ footer .redes i:hover {
   background-position: bottom;
   width: 100%;
   height: auto;
-  color: white;
+  color: #fff;
   padding-top: 10px;
-  font-family: 'Hammersmith One', sans-serif;
-  -webkit-text-stroke: 1px black; }
+  -webkit-text-stroke: 1px black;
+  font-family: 'Hammersmith One', sans-serif; }
 
 .planes h2 {
   padding-top: 30px;
   font-size: 60px;
-  color: white;
+  color: #fff;
   text-align: center; }
 
 .planes a {
@@ -467,7 +472,7 @@ footer .redes i:hover {
 /* SOBRE MI INICIO */
 .sobreMi {
   background-color: #545454;
-  color: black;
+  color: #000;
   display: inline-flex;
   width: 100%;
   height: auto;
@@ -476,7 +481,7 @@ footer .redes i:hover {
 .sobreMi h2 {
   padding-top: 030px;
   font-size: 60px;
-  color: white;
+  color: #fff;
   text-align: center; }
 
 .sobreMi a {
@@ -497,7 +502,7 @@ footer .redes i:hover {
   font-size: 45px;
   text-shadow: 0px 0px 5px black; }
 
-.sec1 h4 {
+.sec1 h3 {
   text-align: center;
   font-size: 20px;
   line-height: 20px;
@@ -506,8 +511,8 @@ footer .redes i:hover {
   text-shadow: 0px 0px 5px black; }
 
 .sec2 {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
   text-align: left; }
 
 .sec2 h2 {
@@ -526,7 +531,7 @@ footer .redes i:hover {
 .sec3 h3 {
   margin-top: 70px;
   font-size: 30px;
-  color: white;
+  color: #fff;
   text-shadow: 0px 0px 5px black; }
 
 .sec3 h3:hover {
@@ -543,21 +548,18 @@ footer .redes i:hover {
 .btn-sobreMi {
   width: 230px;
   padding: 15px;
-  margin: 30px auto;
-  background-color: white;
-  text-align: center;
-  color: black;
-  cursor: pointer; }
+  margin: 30px auto; }
 
 .btn-sobreMi:hover {
   transition: 0.5s;
   transform: scale(1.1);
-  background-color: gray; }
+  color: #fff;
+  background-color: #244970; }
 
 .metanoia-cont {
-  background-color: black;
+  background-color: #000;
   border-radius: 35px;
-  color: white;
+  color: #fff;
   margin: 40px auto;
   padding: 0px 30px 10px 30px;
   width: 350px;
@@ -614,10 +616,10 @@ footer .redes i:hover {
     display: flex;
     width: 100%;
     height: auto;
-    background-color: white;
-    color: black; }
+    background-color: #fff;
+    color: #000; }
   .contacto .right .titulo {
-    color: black;
+    color: #000;
     width: 100%;
     height: auto;
     padding: 0;
@@ -649,7 +651,7 @@ footer .redes i:hover {
     width: 100%;
     font-size: 20px;
     text-align: center;
-    color: black; }
+    color: #000; }
   .tusDatos h3 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -665,7 +667,7 @@ footer .redes i:hover {
     width: 100%; }
   #boton {
     background-color: #00367d;
-    color: white;
+    color: #fff;
     border: 1px solid black;
     font-size: 12px;
     padding: 5px 10px;
@@ -734,7 +736,7 @@ footer .redes i:hover {
     width: 100%;
     height: auto;
     background-color: #545454;
-    color: black;
+    color: #000;
     display: inline-flex;
     flex-direction: column; }
   .sec {
@@ -744,7 +746,7 @@ footer .redes i:hover {
     display: inline-flex;
     flex-direction: row;
     margin-bottom: 60px; }
-  .sec1 h4 {
+  .sec1 h3 {
     text-align: center;
     font-size: 30px;
     line-height: 30px;
@@ -767,8 +769,8 @@ footer .redes i:hover {
     margin: 0;
     padding: 0; }
   .sec2 {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     text-align: center; }
   .sec2 h2 {
     margin: 15px auto;
@@ -781,7 +783,7 @@ footer .redes i:hover {
     margin-top: 5px; }
   .sec3 h3 {
     font-size: 38px;
-    color: white;
+    color: #fff;
     margin: 0;
     padding-bottom: 30px; }
   .contactame p {
@@ -794,18 +796,17 @@ footer .redes i:hover {
     width: 230px;
     padding: 15px;
     margin: 30px auto;
-    background-color: white;
+    background-color: #fff;
     text-align: center;
-    color: black;
+    color: #000;
     cursor: pointer; }
   .btn-sobreMi:hover {
     transition: 0.5s;
-    transform: scale(1.1);
-    background-color: gray; }
+    transform: scale(1.1); }
   .metanoia-cont {
-    background-color: black;
+    background-color: #000;
     border-radius: 35px;
-    color: white;
+    color: #fff;
     position: relative;
     margin: 40px auto;
     padding: 0px 30px 10px 30px;
@@ -826,19 +827,19 @@ footer .redes i:hover {
     padding-top: 30px;
     font-size: 30px; }
   .metanoia-cont span {
-    color: #46a1cc; }
+    color: #46A1CC; }
   /* SOBRE MI FINAL */
   /* PAG - CLASE GENERAL (usan varios html) INICIO */
   .pag {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     width: 100%;
     height: 850px;
     font-size: 20px; }
   .pag h2 {
     padding-top: 030px;
     font-size: 60px;
-    color: white;
+    color: #fff;
     text-align: center; }
   .pag a {
     text-decoration: none; }
@@ -854,8 +855,8 @@ footer .redes i:hover {
     padding: 0 50px;
     margin: 20px 0px 70px 0; }
   .btn-disc {
-    color: black;
-    background-color: white;
+    color: #000;
+    background-color: #fff;
     width: 240px;
     font-size: 35px;
     text-align: center;
@@ -865,7 +866,7 @@ footer .redes i:hover {
   .btn-disc:hover {
     transition: 0.5s;
     background-color: #ffe24f;
-    color: black;
+    color: #000;
     transform: scale(1.09); }
   footer {
     height: 140px;
@@ -929,17 +930,15 @@ footer .redes i:hover {
   .coachpubli a {
     text-decoration: none; }
   #btn-publis {
-    background-color: black;
-    color: white;
-    text-align: center;
+    background-color: #000;
+    color: #fff;
     margin: 20px auto 10px auto;
     font-size: 18px;
-    width: 240px;
-    cursor: pointer; }
+    width: 240px; }
   #btn-publis:hover {
     transition: 0.5s;
     background-color: #ffe24f;
-    color: black;
+    color: #000;
     transform: scale(1.1); }
   /* CONTENIDO CON POST FINAL */ }
 
@@ -960,10 +959,10 @@ footer .redes i:hover {
     flex-direction: column-reverse;
     width: 100%;
     height: auto;
-    background-color: white;
-    color: black; }
+    background-color: #fff;
+    color: #000; }
   .contacto .right .titulo {
-    color: black;
+    color: #000;
     width: 100%;
     height: auto;
     padding: 0;
@@ -997,7 +996,7 @@ footer .redes i:hover {
     width: 100%;
     font-size: 20px;
     text-align: center;
-    color: black; }
+    color: #000; }
   .tusDatos h3 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1013,7 +1012,7 @@ footer .redes i:hover {
     width: 100%; }
   #boton {
     background-color: #00367d;
-    color: white;
+    color: #fff;
     border: 1px solid black;
     font-size: 12px;
     padding: 5px 10px;
@@ -1100,7 +1099,7 @@ footer .redes i:hover {
     font-size: 50px;
     margin: 10px auto;
     padding: 0; }
-  .sec1 h4 {
+  .sec1 h3 {
     text-align: center;
     font-size: 25px;
     line-height: 30px;
@@ -1108,8 +1107,8 @@ footer .redes i:hover {
     color: #e2e2e2;
     text-shadow: 0px 0px 5px black; }
   .sec2 {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     text-align: center; }
   .sec2 h2 {
     margin: 0px auto;
@@ -1122,22 +1121,22 @@ footer .redes i:hover {
     font-size: 45px; }
   .sec3 h3 {
     font-size: 30px;
-    color: white;
+    color: #fff;
     margin: 0; }
   .metanoia-cont h2 {
     transform: translate(75%, -55%); }
   /* SOBRE MI FINAL */
   /* PAG - CLASE GENERAL (usan varios html) INICIO */
   .pag {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     width: 100%;
     height: 1250px;
     font-size: 20px; }
   .pag h2 {
     padding-top: 030px;
     font-size: 60px;
-    color: white;
+    color: #fff;
     text-align: center; }
   .pag a {
     text-decoration: none; }
@@ -1157,8 +1156,8 @@ footer .redes i:hover {
   .coach-ontologico {
     margin-bottom: 40px; }
   .btn-disc {
-    color: black;
-    background-color: white;
+    color: #000;
+    background-color: #fff;
     width: 240px;
     font-size: 35px;
     text-align: center;
@@ -1168,7 +1167,7 @@ footer .redes i:hover {
   .btn-disc:hover {
     transition: 0.5s;
     background-color: #ffe24f;
-    color: black;
+    color: #000;
     transform: scale(1.09); }
   /* DISCIPLINAS FINAL*/
   /* FOOTER INICIO */
@@ -1235,8 +1234,8 @@ footer .redes i:hover {
   .coachpubli a {
     text-decoration: none; }
   #btn-publis {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     text-align: center;
     margin: 0px auto 10px auto;
     font-size: 18px;
@@ -1245,7 +1244,7 @@ footer .redes i:hover {
   #btn-publis:hover {
     transition: 0.5s;
     background-color: #ffe24f;
-    color: black;
+    color: #000;
     transform: scale(1.1); }
   /* CONTENIDO CON POST FINAL */ }
 
@@ -1257,7 +1256,7 @@ footer .redes i:hover {
     width: 100%;
     height: 70px;
     background-color: #484848;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   footer .logo {
     display: flex;
     align-items: center;
@@ -1265,7 +1264,7 @@ footer .redes i:hover {
     flex-direction: row;
     padding: 0;
     margin-left: 10px;
-    color: white; }
+    color: #fff; }
   footer img {
     width: 40px;
     height: auto;
@@ -1279,11 +1278,11 @@ footer .redes i:hover {
     display: inline-flex;
     padding: 10px;
     align-items: center;
-    color: white; }
+    color: #fff; }
   footer .redes i {
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: #fff;
     padding: 5px; }
   footer .redes p {
     margin-top: 20px;
@@ -1320,7 +1319,7 @@ footer .redes i:hover {
   header ul.links li a {
     padding-left: 10px;
     text-decoration: none;
-    color: black;
+    color: #000;
     font-size: 17px; }
   header ul.links li a:hover {
     transition: 0.5s;
@@ -1342,10 +1341,10 @@ footer .redes i:hover {
     flex-direction: column-reverse;
     width: 100%;
     height: auto;
-    background-color: white;
-    color: black; }
+    background-color: #fff;
+    color: #000; }
   .contacto .right .titulo {
-    color: black;
+    color: #000;
     width: 100%;
     height: auto;
     padding: 0;
@@ -1381,7 +1380,7 @@ footer .redes i:hover {
     width: 100%;
     font-size: 20px;
     text-align: center;
-    color: black; }
+    color: #000; }
   .tusDatos h3 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1397,7 +1396,7 @@ footer .redes i:hover {
     width: 100%; }
   #boton {
     background-color: #00367d;
-    color: white;
+    color: #fff;
     border: 1px solid black;
     font-size: 12px;
     padding: 5px 10px;
@@ -1481,7 +1480,7 @@ footer .redes i:hover {
     margin: 0 5px; }
   .sec3 h3 {
     font-size: 20px;
-    color: white;
+    color: #fff;
     margin: 0 auto; }
   .contactame p {
     padding: 0;
@@ -1493,18 +1492,17 @@ footer .redes i:hover {
     width: 230px;
     padding: 15px;
     margin: 30px auto;
-    background-color: white;
+    background-color: #fff;
     text-align: center;
-    color: black;
+    color: #000;
     cursor: pointer; }
   .btn-sobreMi:hover {
     transition: 0.5s;
-    transform: scale(1.1);
-    background-color: gray; }
+    transform: scale(1.1); }
   .metanoia-cont {
-    background-color: black;
+    background-color: #000;
     border-radius: 35px;
-    color: white;
+    color: #fff;
     position: relative;
     margin: 40px auto;
     padding: 0px 30px 10px 30px;
@@ -1537,16 +1535,16 @@ footer .redes i:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: "Hammersmith One", sans-serif; }
+    font-family: 'Hammersmith One', sans-serif; }
   .banner-home #title {
     content-visibility: hidden; }
   .banner-home h2 {
-    color: white;
+    color: #fff;
     font-size: 25px;
     -webkit-text-stroke: 0px; }
   .banner-home a {
     text-decoration: none;
-    color: black;
+    color: #000;
     order: 1; }
   .btn-sesion {
     margin: 0px auto;
@@ -1556,13 +1554,13 @@ footer .redes i:hover {
     background-color: #b80000;
     cursor: pointer;
     border-radius: 10px;
-    color: white;
+    color: #fff;
     text-align: center;
     font-size: 16px; }
   .btn-sesion:hover {
     transition: 0.5s;
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     transform: scale(1.1); }
   /* BANNER FINAL */
   /* CONTENIDO CON POSTS INICIO */
@@ -1610,8 +1608,8 @@ footer .redes i:hover {
   .coachpubli a {
     text-decoration: none; }
   #btn-publis {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     text-align: center;
     margin: 20px auto 10px auto;
     font-size: 18px;
@@ -1620,20 +1618,20 @@ footer .redes i:hover {
   #btn-publis:hover {
     transition: 0.5s;
     background-color: #ffe24f;
-    color: black;
+    color: #000;
     transform: scale(1.1); }
   /* CONTENIDO CON POST FINAL */
   /* PAG - CLASE GENERAL (usan varios html) INICIO */
   .pag {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     width: 100%;
     height: 1650px;
     font-size: 20px; }
   .pag h2 {
     padding-top: 030px;
     font-size: 60px;
-    color: white;
+    color: #fff;
     text-align: center; }
   .pag a {
     text-decoration: none; }
@@ -1653,8 +1651,8 @@ footer .redes i:hover {
   .coach-ontologico {
     margin-bottom: 40px; }
   .btn-disc {
-    color: black;
-    background-color: white;
+    color: #000;
+    background-color: #fff;
     width: 240px;
     font-size: 35px;
     text-align: center;
@@ -1664,7 +1662,7 @@ footer .redes i:hover {
   .btn-disc:hover {
     transition: 0.5s;
     background-color: #ffe24f;
-    color: black;
+    color: #000;
     transform: scale(1.09); }
   /* DISCIPLINAS FINAL*/
   /* FOOTER INCIO */
@@ -1675,12 +1673,12 @@ footer .redes i:hover {
     width: 100%;
     height: 70px;
     background-color: #484848;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   footer .logo {
     flex-direction: column;
     padding: 0;
     margin-left: 10px;
-    color: white; }
+    color: #fff; }
   footer .logo:hover {
     color: #46a1cc;
     transition: 0.3s;
@@ -1702,11 +1700,11 @@ footer .redes i:hover {
     margin: 0;
     margin-right: 20px;
     align-items: center;
-    color: white; }
+    color: #fff; }
   footer .redes i {
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: #fff;
     padding: 5px; }
   footer .redes p {
     margin-top: 20px;
@@ -1736,7 +1734,7 @@ footer .redes i:hover {
   header ul.links li a {
     padding-left: 10px;
     text-decoration: none;
-    color: black;
+    color: #000;
     font-size: 14px; }
   header ul.links li a:hover {
     transition: 0.5s;
@@ -1792,7 +1790,7 @@ footer .redes i:hover {
     text-shadow: 0px 0px 0.1px black; }
   /* PLANES FINAL */
   /* SOBRE MI INICIO*/
-  .sec1 h4 {
+  .sec1 h3 {
     font-size: 20px; }
   .sec3 h3 {
     font-size: 18px;
@@ -1810,7 +1808,7 @@ footer .redes i:hover {
     width: 100%;
     height: 70px;
     background-color: #484848;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   footer .logo h2 {
     width: 90px;
     font-size: 10px; }
@@ -1820,11 +1818,11 @@ footer .redes i:hover {
     display: inline-flex;
     padding: 10px;
     align-items: center;
-    color: white; }
+    color: #fff; }
   footer .redes i {
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: #fff;
     padding: 5px; }
   footer .redes p {
     margin: 0;
@@ -1937,7 +1935,7 @@ footer .redes i:hover {
     width: 320px;
     height: 70px;
     background-color: #484848;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   footer .logo h2 {
     width: 90px;
     font-size: 10px; }
@@ -1947,11 +1945,11 @@ footer .redes i:hover {
     display: inline-flex;
     padding: 10px;
     align-items: center;
-    color: white; }
+    color: #fff; }
   footer .redes i {
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: #fff;
     padding: 5px; }
   footer .redes p {
     margin: 0;
